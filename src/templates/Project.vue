@@ -17,7 +17,7 @@
 export default {
     metaInfo() {
         return {
-            title: this.$page.$project.title
+            title: this.$page.project.title
         }
     }
 }
