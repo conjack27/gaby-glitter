@@ -4,13 +4,15 @@ backend:
 media_folder: "static/uploads"
 public_folder: "/uploads"
 collections:
-    - name: "one-off" # Used in routes, e.g., /admin/collections/blog
-      label: "One Off" # Used in the UI
+    - name: "one-offs" # Used in routes, e.g., /admin/collections/blog
+      label: "One-Off" # Used in the UI
       folder: "one-offs" # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
       fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Image", name: "image", widget: "image" }
+          - { label: "Size", name: "size", widget: "string" }
           - {
                 label: "Date",
                 name: "date",
@@ -18,8 +20,8 @@ collections:
                 dateFormat: "DD.MM.YYYY",
                 timeFormat: false,
             }
-          - { label: "Body", name: "body", widget: "markdown" }
-    - name: "project" # Used in routes, e.g., /admin/collections/blog
+          - { label: "Description", name: "body", widget: "markdown" }
+    - name: "projects" # Used in routes, e.g., /admin/collections/blog
       label: "Project" # Used in the UI
       folder: "projects" # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
