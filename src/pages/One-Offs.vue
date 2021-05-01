@@ -4,9 +4,11 @@
       <h1 >One-offs</h1>
       <ul>
           <li
-           v-for="one-off in $page.one-off.edges" 
-          :key="one-off.id" 
-          ></li>
+           v-for="(oneOff, i) in $page.oneOff.edges" 
+           :key="i"
+          >
+        {{oneOff.title}}
+          </li>
       </ul>
     </div>
 
@@ -14,13 +16,11 @@
 </template>
 
 <page-query>
-  query One-offs {
-    one-off: allOneOff {
+  query OneOffs {
+    oneOff: allOneOff {
       edges {
         node {
           id
-          title
-          path
         }
       }
     }

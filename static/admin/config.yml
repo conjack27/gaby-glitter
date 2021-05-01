@@ -4,9 +4,9 @@ backend:
 media_folder: "static/uploads"
 public_folder: "/uploads"
 collections:
-    - name: "one-offs" # Used in routes, e.g., /admin/collections/blog
-      label: "One-Off" # Used in the UI
-      folder: "one-offs" # The path to the folder where the documents are stored
+    - name: "OneOffs" # Used in routes, e.g., /admin/collections/blog
+      label: "OneOff" # Used in the UI
+      folder: "OneOffs" # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
       fields: # The fields for each document, usually in front matter

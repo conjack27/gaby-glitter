@@ -1,5 +1,5 @@
 module.exports = {
-  siteName: 'Gabrielle',
+  siteName: 'Gaby Jonna',
   plugins: [
     {
       use: '@gridsome/source-filesystem',
@@ -11,7 +11,7 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'one-offs/**/*.md',
+        path: 'oneoffs/**/*.md',
         typeName: 'OneOff',
        
       }

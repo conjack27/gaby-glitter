@@ -1,16 +1,16 @@
 <template>
     <Layout>
-        <g-image :src="$page.one-off.image" width="500"/>
-        <h1>{{$page.one-off.title}}</h1>
-        <p>{{$page.one-off.size}}</p>
-        <p>{{$page.one-off.date}}</p>
-        <p>{{$page.one-off.description}}</p>
+        <g-image :src="$page.oneOff.image" width="500"/>
+        <h1>{{$page.oneOff.title}}</h1>
+        <p>{{$page.oneOff.size}}</p>
+        <p>{{$page.oneOff.date}}</p>
+        <p>{{$page.oneOff.description}}</p>
     </Layout>
 </template>
 
 <page-query>
-    query One-Off ($path: String!) {
-        one-off: one-off (path: $path) {
+    query OneOff ($path: String!) {
+        oneOff: oneOff (path: $path) {
             title
             image
             size
@@ -24,7 +24,7 @@
 export default {
     metaInfo() {
         return {
-            title: this.$page.one-off.title
+            title: this.$page.oneOff.title
         }
     }
 }
