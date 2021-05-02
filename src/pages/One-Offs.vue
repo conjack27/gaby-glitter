@@ -1,17 +1,19 @@
 <template>
   <Layout>
-   <div>
-      <h1 >One-offs</h1>
+   <div class="container">
+     <div class="row">
+      <h1>One-offs</h1>
       <ul>
           <li
            v-for="(oneOff, i) in $page.oneOff.edges" 
            :key="i"
           >
-        {{oneOff.title}}
+            {{ oneOff.node.title }}
+            <g-image :src="oneOff.node.image"/>
           </li>
       </ul>
     </div>
-
+</div>
   </Layout>
 </template>
 
@@ -20,7 +22,9 @@
     oneOff: allOneOff {
       edges {
         node {
-          id
+          title
+          path
+          image
         }
       }
     }
@@ -47,6 +51,5 @@ export default {
 }
 </script>
 
-<style>
-  
+<style lang="scss">
 </style>

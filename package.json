@@ -11,5 +11,8 @@
     "@gridsome/transformer-remark": "^0.6.4",
     "gridsome": "^0.7.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.1"
+  }
 }

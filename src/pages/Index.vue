@@ -1,35 +1,20 @@
 <template>
   <Layout>
-    <h1>Hello, world!</h1>
-
- 
+     <div class="row">
+    <div class="one-half column">1/2</div>
+    <div class="one-half column">1/2</div>
+  </div>
   </Layout>
+ 
 </template>
-
-<page-query>
-  query Projects {
-    allProject {
-      edges {
-        node {
-          title
-          path
-          content
-        }
-      }
-    }
-  }
-</page-query>
 
 <script>
 export default {
   metaInfo: {
-    title: 'Hello, world!'
+    title: 'Gaby Jonna'
   }
 }
 </script>
 
-<style>
-.home-links a {
-  margin-right: 1rem;
-}
+<style lang="scss">
 </style>
