@@ -9,12 +9,12 @@
                         }}</g-link>
                         <ul class="nav__menu" :class="{ show: showMenu }">
                             <li class="nav__menu-item">
-                                <g-link class="nav__link" to="/"
+                                <g-link class="nav__link" to="/projects"
                                     >Projects</g-link
                                 >
                             </li>
                             <li class="nav__menu-item">
-                                <g-link class="nav__link" to="/One-Offs/"
+                                <g-link class="nav__link" to="/oneoffs/"
                                     >One-Offs</g-link
                                 >
                             </li>
@@ -70,11 +70,6 @@ export default {
 
 <style lang="scss">
 @import "../assets/main.scss";
-
-img {
-    width: 20px;
-    height: 20px;
-}
 
 .header {
     position: fixed;

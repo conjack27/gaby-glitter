@@ -25,7 +25,6 @@ module.exports = {
       options: {
         path: 'oneoffs/**/*.md',
         typeName: 'OneOff',
-
       }
     }
   ],
