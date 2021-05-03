@@ -1,33 +1,43 @@
 <template>
     <div>
         <header class="row header">
-            <nav class="nav">
-                <g-link class="nav__logo" to="/">{{
-                    $static.metadata.siteName
-                }}</g-link>
-                <ul class="nav__menu" :class="{ show: showMenu }">
-                    <li class="nav__menu-item">
-                        <g-link class="nav__link" to="/">Projects</g-link>
-                    </li>
-                    <li class="nav__menu-item">
-                        <g-link class="nav__link" to="/One-Offs/"
-                            >One-Offs</g-link
-                        >
-                    </li>
+            <div class="container">
+                <div class="row">
+                    <nav class="nav">
+                        <g-link class="nav__logo" to="/">{{
+                            $static.metadata.siteName
+                        }}</g-link>
+                        <ul class="nav__menu" :class="{ show: showMenu }">
+                            <li class="nav__menu-item">
+                                <g-link class="nav__link" to="/"
+                                    >Projects</g-link
+                                >
+                            </li>
+                            <li class="nav__menu-item">
+                                <g-link class="nav__link" to="/One-Offs/"
+                                    >One-Offs</g-link
+                                >
+                            </li>
 
-                    <li class="nav__menu-item">
-                        <g-link class="nav__link" to="/about/">About Me</g-link>
-                    </li>
-                    <li class="nav__menu-item">
-                        <g-link class="nav__link" to="/about/">Contact</g-link>
-                    </li>
-                </ul>
-                <span
-                    v-on:click="toggleMenu"
-                    class="nav__button"
-                    :class="{ menuOpen: showMenu }"
-                ></span>
-            </nav>
+                            <li class="nav__menu-item">
+                                <g-link class="nav__link" to="/about/"
+                                    >About Me</g-link
+                                >
+                            </li>
+                            <li class="nav__menu-item">
+                                <g-link class="nav__link" to="/about/"
+                                    >Contact</g-link
+                                >
+                            </li>
+                        </ul>
+                        <span
+                            v-on:click="toggleMenu"
+                            class="nav__button"
+                            :class="{ menuOpen: showMenu }"
+                        ></span>
+                    </nav>
+                </div>
+            </div>
         </header>
         <div class="content">
             <slot />
@@ -59,28 +69,7 @@ export default {
 </script>
 
 <style lang="scss">
-$black: #0b0b09;
-$white: #ffffff;
-$cream: #fafafa;
-$grey: #687876;
-
-@font-face {
-    font-family: Palatino;
-    src: url("../assets/Palatino/Palatino.ttf");
-    src: url("../assets/Palatino/Palatino.woff2") format("woff2"),
-        /* Super Modern Browsers */ url("../assets/Palatino/Palatino.woff")
-            format("woff"),
-        /* Pretty Modern Browsers */ url("../assets/Palatino/Palatino.ttf")
-            format("truetype"); /* Safari, Android, iOS */
-}
-
-* {
-    font-family: Palatino;
-}
-
-body {
-    background-color: $cream;
-}
+@import "../assets/main.scss";
 
 img {
     width: 20px;

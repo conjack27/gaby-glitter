@@ -1,0 +1,22 @@
+$black: #0b0b09;
+$white: #ffffff;
+$cream: #fafafa;
+$grey: #687876;
+
+@font-face {
+    font-family: Palatino;
+    src: url("../assets/Palatino/Palatino.ttf");
+    src: url("../assets/Palatino/Palatino.woff2") format("woff2"),
+        /* Super Modern Browsers */ url("../assets/Palatino/Palatino.woff")
+            format("woff"),
+        /* Pretty Modern Browsers */ url("../assets/Palatino/Palatino.ttf")
+            format("truetype"); /* Safari, Android, iOS */
+}
+
+* {
+    font-family: Palatino;
+}
+
+body {
+    background-color: $cream;
+}
