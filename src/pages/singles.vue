@@ -4,7 +4,7 @@
             <div class="row">
                 <h1>One-offs</h1>
                 <ul class="singles">
-                    <!-- <li
+                    <li
                         class="single"
                         v-for="(single, i) in $page.single.edges"
                         :key="i"
@@ -15,7 +15,7 @@
                                 :src="single.node.image"
                             />
                         </g-link>
-                    </li> -->
+                    </li>
                 </ul>
             </div>
         </div>
@@ -27,7 +27,8 @@
     single: allSingle {
       edges {
         node {
-            id
+            path
+            image
         }
       }
     }
