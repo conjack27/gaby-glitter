@@ -11,7 +11,7 @@
                     </g-link>
                 </div>
                 <div class="one-half column">
-                    <g-link to="/OneOffs/">
+                    <g-link to="/singles/">
                         <div class="home__image home__image--2">
                             <h1 class="home__image-heading">One-Offs</h1>
                             <div class="home__image-overlay"></div>

@@ -23,8 +23,8 @@ module.exports = {
     {
       use: '@gridsome/source-filesystem',
       options: {
-        path: 'oneoffs/**/*.md',
-        typeName: 'Oneoff',
+        path: 'singles/**/*.md',
+        typeName: 'Single',
       }
     }
   ],

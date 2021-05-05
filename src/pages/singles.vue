@@ -3,19 +3,19 @@
         <div class="container">
             <div class="row">
                 <h1>One-offs</h1>
-                <ul class="oneoffs">
-                    <li
-                        class="oneoff"
-                        v-for="(oneoff, i) in $page.oneoff.edges"
+                <ul class="singles">
+                    <!-- <li
+                        class="single"
+                        v-for="(single, i) in $page.single.edges"
                         :key="i"
                     >
-                        <g-link :to="oneoff.node.path">
+                        <g-link :to="single.node.path">
                             <g-image
-                                class="oneoff__image"
-                                :src="oneoff.node.image"
+                                class="single__image"
+                                :src="single.node.image"
                             />
                         </g-link>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
@@ -23,12 +23,11 @@
 </template>
 
 <page-query>
-  query Oneoffs {
-    oneoff: allOneoff {
+  query Singles {
+    single: allSingle {
       edges {
         node {
-            path
-            image
+            id
         }
       }
     }
@@ -49,14 +48,14 @@ export default {
 </script>
 
 <style lang="scss">
-.oneoffs {
+.singles {
     list-style-type: none;
 }
 
-.oneoff {
+.single {
 }
 
-.oneoff__image {
+.single__image {
     width: 100%;
     height: auto;
 }
