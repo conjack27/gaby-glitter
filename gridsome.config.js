@@ -24,7 +24,7 @@ module.exports = {
       use: '@gridsome/source-filesystem',
       options: {
         path: 'oneoffs/**/*.md',
-        typeName: 'OneOff',
+        typeName: 'Oneoff',
       }
     }
   ],
