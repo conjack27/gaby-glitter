@@ -6,13 +6,13 @@
                 <ul class="oneoffs">
                     <li
                         class="oneoff"
-                        v-for="(oneOff, i) in $page.oneOff.edges"
+                        v-for="(OneOff, i) in $page.OneOff.edges"
                         :key="i"
                     >
-                        <g-link :to="oneOff.node.path">
+                        <g-link :to="OneOff.node.path">
                             <g-image
                                 class="oneoff__image"
-                                :src="oneOff.node.image"
+                                :src="OneOff.node.image"
                             />
                         </g-link>
                     </li>
@@ -24,7 +24,7 @@
 
 <page-query>
   query OneOffs {
-    oneOff: allOneOff {
+    OneOff: allOneOff {
       edges {
         node {
             path
