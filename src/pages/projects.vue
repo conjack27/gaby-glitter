@@ -2,18 +2,15 @@
     <Layout>
         <div class="container">
             <div class="row">
-                <h1>One-offs</h1>
-                <ul class="oneoffs">
+                <h1>Projects</h1>
+                <ul class="projects">
                     <li
-                        class="oneoff"
-                        v-for="(oneOff, i) in $page.oneOff.edges"
+                        class="project"
+                        v-for="(project, i) in $page.project.edges"
                         :key="i"
                     >
-                        <g-link :to="oneOff.node.path">
-                            <g-image
-                                class="oneoff__image"
-                                :src="oneOff.node.image"
-                            />
+                        <g-link :to="project.node.path"
+                            >{{ project.node.title }}
                         </g-link>
                     </li>
                 </ul>
@@ -23,12 +20,12 @@
 </template>
 
 <page-query>
-  query OneOffs {
-    oneOff: allOneOff {
+  query Projects {
+    project: allProject {
       edges {
         node {
           path
-          image
+          title
         }
       }
     }
@@ -38,7 +35,7 @@
 <script>
 export default {
     metaInfo: {
-        title: "One-Offs",
+        title: "Projects",
     },
     data() {
         return {};
@@ -49,15 +46,4 @@ export default {
 </script>
 
 <style lang="scss">
-.oneoffs {
-    list-style-type: none;
-}
-
-.oneoff {
-}
-
-.oneoff__image {
-    width: 100%;
-    height: auto;
-}
 </style>
