@@ -22,16 +22,7 @@
     </Layout>
 </template>
 
-<page-query>
-  query OneOffs {
-    oneOff: allOneOff {
-      edges {
-        node {
-        }
-      }
-    }
-  }
-</page-query>
+
 
 <script>
 export default {
