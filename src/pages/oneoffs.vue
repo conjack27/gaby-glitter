@@ -4,7 +4,7 @@
             <div class="row">
                 <h1>One-offs</h1>
                 <ul class="oneoffs">
-                    <li
+                    <!-- <li
                         class="oneoff"
                         v-for="(oneOff, i) in $page.oneOff.edges"
                         :key="i"
@@ -15,7 +15,7 @@
                                 :src="oneOff.node.image"
                             />
                         </g-link>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </div>
