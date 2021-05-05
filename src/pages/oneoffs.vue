@@ -27,7 +27,6 @@
     oneOff: allOneOff {
       edges {
         node {
-          image
         }
       }
     }
