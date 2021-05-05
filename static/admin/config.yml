@@ -4,7 +4,7 @@ backend:
 media_folder: "static/uploads"
 public_folder: "/uploads"
 collections:
-    - name: "OneOffs" # Used in routes, e.g., /admin/collections/blog
+    - name: "oneOffs" # Used in routes, e.g., /admin/collections/blog
       label: "OneOff" # Used in the UI
       folder: "oneOffs" # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
