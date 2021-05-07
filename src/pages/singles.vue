@@ -2,25 +2,17 @@
     <Layout>
         <div class="container">
             <div class="row">
-                <h1>One-offs</h1>
-                <ul class="singles">
-                    <li
-                        class="single"
-                        v-for="(single, i) in $page.single.edges"
-                        :key="i"
-                    >
-                        <g-link class="single__link" :to="single.node.path">
-                            <g-image
-                                class="single__image"
-                                :src="single.node.image"
-                            />
-                            <h1 class="single__image-heading">
-                                {{ single.node.title }}
-                            </h1>
-                            <div class="single__image-overlay"></div>
+                <vue-masonry-wall :items="singles" :options="options">
+                    <template v-slot:default="{ item }">
+                        <g-link class="single__link" :to="item.node.path">
                         </g-link>
-                    </li>
-                </ul>
+                        <g-image class="single__image" :src="item.node.image" />
+
+                        <h1 class="single__image-heading">
+                            {{ item.node.title }}
+                        </h1>
+                    </template>
+                </vue-masonry-wall>
             </div>
         </div>
     </Layout>
@@ -41,67 +33,78 @@
 </page-query>
 
 <script>
+import VueMasonryWall from "vue-masonry-wall";
 export default {
     metaInfo: {
         title: "One-Offs",
     },
+    components: { VueMasonryWall },
     data() {
-        return {};
+        return {
+            singles: [],
+            options: {
+                width: 300,
+                padding: {
+                    2: 8,
+                    default: 12,
+                },
+            },
+        };
     },
-    created() {},
+    mounted() {
+        this.singles = this.$page.single.edges;
+    },
     methods: {},
 };
 </script>
 
 <style lang="scss">
-//https://css-tricks.com/piecing-together-approaches-for-a-css-masonry-layout/
 @import "../assets/main.scss";
 .singles {
     list-style-type: none;
 
     @media only screen and (min-width: 600px) {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-column-gap: 0px;
-        grid-row-gap: 0px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
     }
 }
 
-.single {
+.masonry-item {
     position: relative;
     z-index: 1;
 
     &:hover {
-        .single__image-overlay {
-            opacity: 0.25;
-        }
-
         .single__image-heading {
             @media only screen and (min-width: 600px) {
                 opacity: 1;
             }
         }
+        .single__image {
+            @media only screen and (min-width: 600px) {
+                filter: brightness(65%);
+            }
+        }
     }
+}
+
+.single__link {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 4;
 }
 
 .single__image {
     width: 100%;
     height: auto;
-}
-
-.single__image-overlay {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: #000;
-    z-index: 2;
-    top: 0;
-    left: 0;
-    opacity: 0.25;
-    transition: opacity 0.2s linear;
+    filter: brightness(65%);
 
     @media only screen and (min-width: 600px) {
-        opacity: 0;
+        filter: brightness(100%);
     }
 }
 
