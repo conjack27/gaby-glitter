@@ -79,7 +79,7 @@ export default {
 
     @media only screen and (min-width: 600px) {
         position: relative;
-        border-bottom: 1px solid $black;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
     }
 }
 
@@ -126,7 +126,7 @@ export default {
     margin-bottom: 0;
     background-color: $white;
     width: 100%;
-    border-bottom: 1px solid $black;
+    // border-bottom: 1px solid $black;
     max-height: 0px;
     transition: max-height 0.2s linear;
 

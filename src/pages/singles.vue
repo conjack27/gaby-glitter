@@ -60,16 +60,6 @@ export default {
 
 <style lang="scss">
 @import "../assets/main.scss";
-.singles {
-    list-style-type: none;
-
-    @media only screen and (min-width: 600px) {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-column-gap: 5px;
-        grid-row-gap: 5px;
-    }
-}
 
 .masonry-item {
     position: relative;
