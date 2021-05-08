@@ -2,17 +2,24 @@
     <Layout>
         <div class="container">
             <div class="row">
-                <vue-masonry-wall :items="singles" :options="options">
-                    <template v-slot:default="{ item }">
-                        <g-link class="single__link" :to="item.node.path">
+                <div class="masonry">
+                    <div
+                        class="masonry-item"
+                        v-for="(single, i) in singles"
+                        :key="i"
+                    >
+                        <g-link class="single__link" :to="single.node.path">
                         </g-link>
-                        <g-image class="single__image" :src="item.node.image" />
+                        <g-image
+                            class="single__image"
+                            :src="single.node.image"
+                        />
 
                         <h1 class="single__image-heading">
-                            {{ item.node.title }}
+                            {{ single.node.title }}
                         </h1>
-                    </template>
-                </vue-masonry-wall>
+                    </div>
+                </div>
             </div>
         </div>
     </Layout>
@@ -33,33 +40,33 @@
 </page-query>
 
 <script>
-import VueMasonryWall from "vue-masonry-wall";
 export default {
     metaInfo: {
         title: "One-Offs",
     },
-    components: { VueMasonryWall },
+    components: {},
     data() {
         return {
             singles: [],
-            options: {
-                width: 300,
-                padding: {
-                    2: 8,
-                    default: 12,
-                },
-            },
         };
     },
     mounted() {
         this.singles = this.$page.single.edges;
     },
+
     methods: {},
 };
 </script>
 
 <style lang="scss">
 @import "../assets/main.scss";
+
+.masonry {
+    @media only screen and (min-width: 600px) {
+        gap: 2rem;
+        column-count: 3;
+    }
+}
 
 .masonry-item {
     position: relative;
