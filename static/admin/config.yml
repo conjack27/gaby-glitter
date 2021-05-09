@@ -31,6 +31,7 @@ collections:
       field: {label: Image, name: image, widget: image}
       fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
+          - { label: "Cover Image", name: "image", widget: "image" }
           - {
                 label: "Date",
                 name: "date",
@@ -39,8 +40,8 @@ collections:
                 timeFormat: false,
             }
           - { label: "Body", name: "body", widget: "markdown" }
-          - label: Image
-            name: image
+          - label: Images
+            name: images
             collapsed: false
             widget: list
             fields:
