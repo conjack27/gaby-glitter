@@ -27,11 +27,10 @@ collections:
       widget: "list"
       create: true # Allow users to create new documents in this collection
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-      summary: '{{fields.image}}'
-      field: {label: Image, name: image, widget: image}
+      summary: '{{fields.title}}'
       fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
-          - { label: "Cover Image", name: "image", widget: "image" }
+          - { label: "Cover Image", name: "coverImage", widget: "image" }
           - {
                 label: "Date",
                 name: "date",
