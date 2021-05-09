@@ -27,7 +27,6 @@
         node {
           path
           title
-          
         }
       }
     }
