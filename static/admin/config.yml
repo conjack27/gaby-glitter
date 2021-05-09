@@ -41,7 +41,10 @@ collections:
           - { label: "Body", name: "body", widget: "markdown" }
     - label: "Gallery"
       name: "galleryImages"
+      folder: "mainPageImages" # The path to the folder where the documents are stored
       widget: "list"
       create: true # Allow users to create new documents in this collection
       summary: '{{fields.image}}'
-      field: {label: Image, name: image, widget: image}
+      fields:
+          - { label: "Source", name: "src", widget: "string" }
+          - { label: "Alt Text", name: "alt", widget: "string" }
