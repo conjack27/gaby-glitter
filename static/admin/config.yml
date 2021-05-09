@@ -38,11 +38,14 @@ collections:
                 dateFormat: "DD.MM.YYYY",
                 timeFormat: false,
             }
-          - { label: "Image", name: "image", widget: "image" }
           - { label: "Body", name: "body", widget: "markdown" }
-          fields:
-            - { label: "Image", name: "image", widget: "image" }
-            - { label: "Title", name: "title", widget: "string" }
+          - label: Image
+            name: image
+            collapsed: false
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Image, name: image, widget: image}
     - label: "Gallery"
       name: "galleryImages"
       folder: "mainPageImages" # The path to the folder where the documents are stored
