@@ -28,6 +28,7 @@ collections:
       create: true # Allow users to create new documents in this collection
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
       summary: '{{fields.image}}'
+      field: {label: Image, name: image, widget: image}
       fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
           - {
