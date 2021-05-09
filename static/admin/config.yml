@@ -49,3 +49,17 @@ collections:
       fields:
           - { label: "Source", name: "src", widget: "string" }
           - { label: "Alt Text", name: "alt", widget: "string" }
+    - label: "Testimonials"
+      name: "testimonials"
+      folder: "testimonials" # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      widget: "list"
+      summary: '{{fields.quote}} - {{fields.author.name}}'
+      fields:
+        - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
+        - label: Author
+          name: author
+          widget: object
+          fields:
+            - {label: Name, name: name, widget: string, default: "Emmet"}
+            - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
