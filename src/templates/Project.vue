@@ -1,3 +1,4 @@
+  
 <template>
     <Layout>
         <div v-html="$page.project.content"></div>
@@ -17,9 +18,8 @@
 export default {
     metaInfo() {
         return {
-            title: this.$page.project.title
-        }
-    }
-}
+            title: this.$page.project.title,
+        };
+    },
+};
 </script>
-
