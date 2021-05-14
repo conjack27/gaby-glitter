@@ -13,13 +13,6 @@ collections:
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Image", name: "image", widget: "image" }
           - { label: "Size", name: "size", widget: "string" }
-          - {
-                label: "Date",
-                name: "date",
-                widget: "datetime",
-                dateFormat: "DD.MM.YYYY",
-                timeFormat: false,
-            }
           - { label: "Content", name: "body", widget: "markdown" }
     - name: "projects" # Used in routes, e.g., /admin/collections/blog
       label: "Project" # Used in the UI
@@ -31,43 +24,27 @@ collections:
       fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Cover Image", name: "coverImage", widget: "image" }
-          - {
-                label: "Date",
-                name: "date",
-                widget: "datetime",
-                dateFormat: "DD.MM.YYYY",
-                timeFormat: false,
-            }
           - { label: "Body", name: "body", widget: "markdown" }
           - label: Images
             name: images
             collapsed: false
             widget: list
             fields:
-              - {label: Name, name: name, widget: string}
               - {label: Image, name: image, widget: image}
-    - label: "Gallery"
-      name: "galleryImages"
-      folder: "mainPageImages" # The path to the folder where the documents are stored
-      widget: "list"
+              - {label: Details, name: details, widget: string}
+    - label: "Projects Main Image"
+      name: "projectsMainImage"
+      folder: "projectsMainImage" # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       summary: '{{fields.image}}'
       fields:
-          - { label: "Source", name: "src", widget: "string" }
-          - { label: "Alt Text", name: "alt", widget: "string" }
-    - label: "Testimonials"
-      name: "testimonials"
-      folder: "testimonials" # The path to the folder where the documents are stored
+          - { label: "Image", name: "coverImage", widget: "image" }
+          - { label: "Image Title", name: "alt", widget: "string" }
+    - label: "Singles Main Image"
+      name: "singlesMainImage"
+      folder: "singlesMainImage" # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
-      widget: "list"
-      summary: '{{fields.quote}} - {{fields.author.name}}'
+      summary: '{{fields.image}}'
       fields:
-        - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-        - label: Author
-          name: author
-          collapsed: false
-          widget: object
-          field: {label: Image, name: image, widget: image}
-          fields:
-            - {label: Name, name: name, widget: string, default: "Emmet"}
-            - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
+          - { label: "Image", name: "coverImage", widget: "image" }
+          - { label: "Image Title", name: "alt", widget: "string" }

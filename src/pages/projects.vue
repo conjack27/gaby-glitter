@@ -3,18 +3,27 @@
     <Layout>
         <div class="container">
             <div class="row">
-                <h1>Projects</h1>
-                <ul class="projects">
-                    <li
-                        class="project"
+                <div class="masonry">
+                    <div
+                        class="masonry-item"
                         v-for="(project, i) in $page.project.edges"
                         :key="i"
                     >
-                        <g-link :to="project.node.path"
-                            >{{ project.node.title }}
+                        <g-link
+                            class="masonry-item__link"
+                            :to="project.node.path"
+                        >
                         </g-link>
-                    </li>
-                </ul>
+                        <g-image
+                            class="masonry-item__image"
+                            :src="project.node.coverImage"
+                        />
+
+                        <h1 class="masonry-item__image-heading">
+                            {{ project.node.title }}
+                        </h1>
+                    </div>
+                </div>
             </div>
         </div>
     </Layout>
@@ -27,6 +36,7 @@
         node {
           path
           title
+          coverImage
         }
       }
     }
@@ -45,6 +55,3 @@ export default {
     methods: {},
 };
 </script>
-
-<style lang="scss">
-</style>

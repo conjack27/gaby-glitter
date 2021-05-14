@@ -1,13 +1,12 @@
 ---
 title: egg project
-image: /uploads/egg.jpg
+coverImage: /uploads/egg.jpg
 date: 2021-05-09T12:05:41.342Z
 images:
-  - name: egg1
-    image: /uploads/egg.jpg
-  - name: egg2
-    image: /uploads/egg2.jpg
-  - name: egg3
-    image: /uploads/eggs.jpg
+  -  image: /uploads/egg.jpg
+     details: egg1, 50cm x 100cm, canvas
+  -  image: /uploads/egg2.jpg
+     details: egg2
+  -  image: /uploads/eggs.jpg
+     details: egg3
 ---
-test
