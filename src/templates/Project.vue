@@ -33,7 +33,7 @@
             images {
                 image
                 details
-            }
+            } 
         }
     }
 </page-query>

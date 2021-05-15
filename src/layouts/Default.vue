@@ -25,7 +25,7 @@
                                 >
                             </li>
                             <li class="nav__menu-item">
-                                <g-link class="nav__link" to="/about/"
+                                <g-link class="nav__link" to="/contact/"
                                     >Contact</g-link
                                 >
                             </li>
@@ -116,6 +116,12 @@ export default {
     font-size: 18px;
     line-height: 24px;
     z-index: 8;
+}
+
+.nav__link {
+    &.active {
+        text-decoration: underline;
+    }
 }
 
 .nav__menu {
