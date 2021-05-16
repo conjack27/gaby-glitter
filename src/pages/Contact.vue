@@ -59,7 +59,7 @@
                         <button class="contact__btn" type="submit">Submit form</button>
                     </form>
                     <div class="contact__info">
-                        <p>For other requests/questions, feel free to send me an email at <a href="mailto:test@gmail.com">gabyjonna@gmail.com</a></p>
+                        <p>For other requests/questions, feel free to send me an email at <a href="mailto:graham.connor@gmail.com">gabyjonna@gmail.com</a></p>
                     </div> 
                 </div>
             </div>

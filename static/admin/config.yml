@@ -37,8 +37,18 @@ collections:
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
       folder: "projectsMainImage" # The path to the folder where the documents are stored
       widget: "image"
+      fields:
+          - widget: string
+            name: name
+            label: Name
+            required: false
     - name: "singlesMainImage"
       label: "One-off Main Image"
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
       folder: "singlesMainImage" # The path to the folder where the documents are stored
       widget: "image"
+      fields:
+          - widget: string
+            name: name
+            label: Name
+            required: false
