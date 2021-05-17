@@ -69,23 +69,7 @@
                             </div>
                         </div>
 
-                        <div class="contact__field">
-                            <label 
-                                class="contact__field-label"
-                            for="message">Painting you want to know more about</label>
-                            <input
-                                type="text"
-                                name="message"
-                                v-model="formData.message"
-                                class="contact__field-input"
-                            ></input>
-                        </div>
-
-                        <button
-                            class="single-item__contact-btn"
-                            @click="formSubmitted = true"
-                            type="submit"
-                        >
+                        <button class="single-item__contact-btn" type="submit">
                             Submit
                         </button>
                     </form>
