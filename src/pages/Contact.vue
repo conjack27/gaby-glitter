@@ -56,7 +56,7 @@
                             ></input>
                         </div>
 
-                        <button class="contact__btn" type="submit">Submit form</button>
+                        <button class="contact__btn" type="submit">Submit</button>
                     </form>
                     <div class="contact__info">
                         <p>For other requests/questions, feel free to send me an email at <a href="mailto:graham.connor@gmail.com">gabyjonna@gmail.com</a></p>
@@ -75,7 +75,7 @@ export default {
         };
     },
     metaInfo: {
-        title: "About us",
+        title: "Contact",
     },
     methods: {
         encode(data) {

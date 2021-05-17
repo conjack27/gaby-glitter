@@ -3,8 +3,32 @@
     <Layout>
         <div class="container">
             <div class="row">
-                <h1 v-html="$page.project.title"></h1>
-                <p v-html="$page.project.content"></p>
+                <h1>{{ $page.project.title }}</h1>
+                <!-- <p>{{ $page.project.description }}</p> -->
+                <div v-if="$page.project.video" class="project__video">
+                    <div style="padding: 75% 0 0 0; position: relative">
+                        <iframe
+                            :src="$page.project.video"
+                            style="
+                                position: absolute;
+                                top: 0;
+                                left: 0;
+                                width: 100%;
+                                height: 100%;
+                            "
+                            frameborder="0"
+                            allow="autoplay; fullscreen; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                    <p>
+                        <a href="https://vimeo.com/33698814"
+                            >Animation Test / Qualoth Test</a
+                        >
+                        from <a href="https://vimeo.com/melies">Melies+CC</a> on
+                        <a href="https://vimeo.com">Vimeo</a>.
+                    </p>
+                </div>
 
                 <div class="masonry">
                     <div
@@ -29,7 +53,6 @@
     query Project ($path: String!) {
         project: project (path: $path) {
             title
-            content
             images {
                 image
                 details
@@ -38,6 +61,7 @@
     }
 </page-query>
 
+<script src="https://player.vimeo.com/api/player.js"></script>
 <script>
 export default {
     metaInfo() {

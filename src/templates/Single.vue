@@ -12,8 +12,9 @@
                         width="500"
                     />
 
-                    <p class="single-item__size">{{ $page.single.size }}</p>
-                    <p class="single-item__date">{{ $page.single.date }}</p>
+                    <!-- <p class="single-item__details">
+                        {{ $page.single.details }}
+                    </p> -->
                     <p class="single-item__content">
                         {{ $page.single.content }}
                     </p>
@@ -28,8 +29,6 @@
         single: single (path: $path) {
             title
             image
-            size
-            date
             content
         }
     }
@@ -53,13 +52,16 @@ export default {
 
 .single-item__image,
 .single-item__heading,
-.single-item__size,
-.single-item__date,
+.single-item__details,
 .single-item__content {
     flex: 0 1 100%;
     text-align: center;
     @media only screen and (min-width: 600px) {
     }
+}
+
+.single-item__details {
+    font-style: italic;
 }
 
 .single-item__image {
