@@ -30,11 +30,7 @@
                         data-netlify-honeypot="bot-field"
                         class="single-item__contact-form"
                     >
-                        <input
-                            type="hidden"
-                            name="individual-painting-form"
-                            value="contact"
-                        />
+                        <input type="hidden" name="form-name" value="contact" />
                         <p hidden>
                             <label>
                                 Don’t fill this out: <input name="bot-field" />
