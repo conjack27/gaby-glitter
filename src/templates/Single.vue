@@ -142,7 +142,7 @@ export default {
                 }),
             })
                 .then(() => {
-                    this.showSuccess = true;
+                    this.formSubmitted = true;
                 })
                 .catch((error) => alert(error));
         },
