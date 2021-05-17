@@ -24,7 +24,7 @@
                         name="painting-request"
                         method="post"
                         v-if="showForm && !formSubmitted"
-                        v-on:submit.prevent="handleSubmit"
+                        v-on:submit.prevent="handlePaintingSubmit"
                         action="/success/"
                         data-netlify="true"
                         data-netlify-honeypot="bot-field"
@@ -115,7 +115,7 @@ export default {
         };
     },
     methods: {
-        encode(data) {
+        paintingEncode(data) {
             return Object.keys(data)
                 .map(
                     (key) =>
@@ -125,7 +125,7 @@ export default {
                 )
                 .join("&");
         },
-        handleSubmit(e) {
+        handlePaintingSubmit(e) {
             this.formData.painting = this.$page.single.title;
             this.formSubmitted = true;
             fetch("/", {
@@ -133,7 +133,7 @@ export default {
                 headers: {
                     "Content-Type": "application/x-www-form-urlencoded",
                 },
-                body: this.encode({
+                body: this.paintingEncode({
                     "form-name": e.target.getAttribute("name"),
                     ...this.formData,
                 }),
