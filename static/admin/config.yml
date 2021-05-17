@@ -43,6 +43,10 @@ collections:
             name: name
             label: Name
             required: false
+          - widget: image
+            name: image
+            label: Image
+            required: true
     - name: "singlesMainImage"
       label: "One-off Main Image"
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -53,3 +57,7 @@ collections:
             name: name
             label: Name
             required: false
+          - widget: image
+            name: image
+            label: Image
+            required: true

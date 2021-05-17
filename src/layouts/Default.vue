@@ -42,6 +42,24 @@
         <div class="content">
             <slot />
         </div>
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer__content">
+                        <div class="footer__social">
+                            <a
+                                class="footer__linkedin"
+                                target="_blank"
+                                href="https://www.linkedin.com/"
+                            ></a>
+                        </div>
+                        <div class="footer__text">
+                            © 2020 All rights reserved. Gabby Jonna
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </template>
 
@@ -186,5 +204,50 @@ export default {
 
 .content {
     padding-top: 50px;
+}
+
+.footer__content {
+    border-top: 1px solid $black;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+    @media only screen and (min-width: 600px) {
+        flex-direction: row;
+    }
+}
+
+.footer__social {
+}
+
+.footer__linkedin {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        background-image: url("../assets/Icons/linkedin.svg");
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 20px;
+        height: 20px;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0.7;
+        }
+    }
+}
+
+.footer__text {
+    margin-top: 30px;
+
+    @media only screen and (min-width: 600px) {
+        margin-top: 0;
+        margin-left: auto;
+    }
 }
 </style>

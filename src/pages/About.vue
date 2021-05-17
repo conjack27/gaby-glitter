@@ -2,13 +2,23 @@
     <Layout>
         <div class="container">
             <div class="row">
-                <h1>About me</h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Error doloremque omnis animi, eligendi magni a voluptatum,
-                    vitae, consequuntur rerum illum odit fugit assumenda rem
-                    dolores inventore iste reprehenderit maxime! Iusto.
-                </p>
+                <div class="about">
+                    <img
+                        src="../assets/Images/gaby.jpg"
+                        alt="Me :)"
+                        class="about__image"
+                    />
+                    <div class="about__text">
+                        <h1>About me</h1>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Error doloremque omnis animi, eligendi magni a
+                            voluptatum, vitae, consequuntur rerum illum odit
+                            fugit assumenda rem dolores inventore iste
+                            reprehenderit maxime! Iusto.
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </Layout>
@@ -21,3 +31,37 @@ export default {
     },
 };
 </script>
+
+<style lang="scss">
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media only screen and (min-width: 600px) {
+        flex-direction: row;
+    }
+}
+
+.about__image {
+    width: 100%;
+    height: auto;
+    flex: 1 0 auto;
+
+    @media only screen and (min-width: 600px) {
+        max-width: 300px;
+    }
+
+    @media only screen and (min-width: 900px) {
+        max-width: 500px;
+    }
+}
+
+.about__text {
+    margin-top: 30px;
+    @media only screen and (min-width: 600px) {
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+}
+</style>

@@ -23,7 +23,7 @@
                             <div class="contact__field">
                                 <label 
                                 class="contact__field-label"
-                                for="name" >Your name</label>
+                                for="name" >Name</label>
                                 <input
                                     type="text"
                                     name="name"
@@ -34,7 +34,7 @@
                             <div class="contact__field">
                                 <label 
                                 class="contact__field-label"
-                                for="email">Your email</label>
+                                for="email">Email</label>
                                 <input
                                     type="email"
                                     name="email"

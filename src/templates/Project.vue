@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <h1>{{ $page.project.title }}</h1>
-                <!-- <p>{{ $page.project.description }}</p> -->
+                <p>{{ $page.project.description }}</p>
                 <div v-if="$page.project.video" class="project__video">
                     <div style="padding: 75% 0 0 0; position: relative">
                         <iframe
@@ -21,13 +21,6 @@
                             allowfullscreen
                         ></iframe>
                     </div>
-                    <p>
-                        <a href="https://vimeo.com/33698814"
-                            >Animation Test / Qualoth Test</a
-                        >
-                        from <a href="https://vimeo.com/melies">Melies+CC</a> on
-                        <a href="https://vimeo.com">Vimeo</a>.
-                    </p>
                 </div>
 
                 <div class="masonry">
@@ -53,6 +46,8 @@
     query Project ($path: String!) {
         project: project (path: $path) {
             title
+            description
+            video
             images {
                 image
                 details

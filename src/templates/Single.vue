@@ -12,11 +12,11 @@
                         width="500"
                     />
 
-                    <!-- <p class="single-item__details">
+                    <p class="single-item__details">
                         {{ $page.single.details }}
-                    </p> -->
+                    </p>
                     <p class="single-item__content">
-                        {{ $page.single.content }}
+                        {{ $page.single.description }}
                     </p>
                 </div>
             </div>
@@ -29,7 +29,7 @@
         single: single (path: $path) {
             title
             image
-            content
+            description
         }
     }
 </page-query>
@@ -56,8 +56,6 @@ export default {
 .single-item__content {
     flex: 0 1 100%;
     text-align: center;
-    @media only screen and (min-width: 600px) {
-    }
 }
 
 .single-item__details {
