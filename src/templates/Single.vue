@@ -21,7 +21,7 @@
                     </button>
 
                     <form
-                        name="painting"
+                        name="painting-request"
                         method="post"
                         v-if="showForm && !formSubmitted"
                         v-on:submit.prevent="handleSubmit"
