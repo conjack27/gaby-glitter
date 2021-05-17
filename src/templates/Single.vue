@@ -126,7 +126,8 @@ export default {
                 .join("&");
         },
         handleSubmit(e) {
-            // this.formData.painting = this.$page.single.title;
+            this.formData.painting = this.$page.single.title;
+            this.formSubmitted = true;
             fetch("/", {
                 method: "POST",
                 headers: {
