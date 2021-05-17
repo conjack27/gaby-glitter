@@ -7,6 +7,7 @@
                     <form
                         name="contact"
                         method="post"
+                        v-if="!showSuccess"
                         v-on:submit.prevent="handleSubmit"
                         action="/success/"
                         data-netlify="true"
@@ -58,6 +59,7 @@
 
                         <button class="contact__btn" type="submit">Submit</button>
                     </form>
+                    <p  class="contact__success" v-else>Thanks! I will get back to you as soon as possible :)</p>
                     <div class="contact__info">
                         <p>For other requests/questions, feel free to send me an email at <a href="mailto:graham.connor@gmail.com">gabyjonna@gmail.com</a></p>
                     </div> 
@@ -72,6 +74,7 @@ export default {
     data() {
         return {
             formData: {},
+            showSuccess: false,
         };
     },
     metaInfo: {
@@ -99,7 +102,9 @@ export default {
                     ...this.formData,
                 }),
             })
-                .then(() => this.$router.push("/success"))
+                .then(() => {
+                    this.showSuccess = true;
+                })
                 .catch((error) => alert(error));
         },
     },
@@ -124,6 +129,11 @@ export default {
     @media only screen and (min-width: 600px) {
         margin-left: 100px;
     }
+}
+
+.contact__success {
+    font-size: 18px;
+    margin-top: 20px;
 }
 
 .contact__form {
