@@ -69,7 +69,11 @@
                             </div>
                         </div>
 
-                        <button class="single-item__contact-btn" type="submit">
+                        <button
+                            class="single-item__contact-btn"
+                            @click="formSubmitted = true"
+                            type="submit"
+                        >
                             Submit
                         </button>
                     </form>
