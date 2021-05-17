@@ -21,7 +21,7 @@
                     </button>
 
                     <form
-                        name="contact"
+                        name="painting"
                         method="post"
                         v-if="showForm && !formSubmitted"
                         v-on:submit.prevent="handleSubmit"
