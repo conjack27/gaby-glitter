@@ -80,6 +80,11 @@ export default {
     metaInfo: {
         title: "Contact",
     },
+    created() {
+        if (this.$route.query.artwork) {
+            this.formData.message = this.$route.query.artwork;
+        }
+    },
     methods: {
         encode(data) {
             return Object.keys(data)

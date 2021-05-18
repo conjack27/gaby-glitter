@@ -12,71 +12,13 @@
                         width="500"
                     />
 
-                    <button
-                        v-show="!showForm"
-                        @click="showForm = true"
-                        class="single-item__btn"
+                    <g-link
+                        class="button button-primary single-item__btn"
+                        target="_blank"
+                        :href="`/contact?artwork=${$page.single.title}`"
                     >
                         Enquire about this artwork
-                    </button>
-
-                    <form
-                        name="painting-request"
-                        method="post"
-                        v-if="showForm && !formSubmitted"
-                        v-on:submit.prevent="handlePaintingSubmit"
-                        action="/success/"
-                        data-netlify="true"
-                        data-netlify-honeypot="bot-field"
-                        class="single-item__contact-form"
-                    >
-                        <input
-                            type="hidden"
-                            name="form-name"
-                            value="painting-request"
-                        />
-                        <p hidden>
-                            <label>
-                                Don’t fill this out: <input name="bot-field" />
-                            </label>
-                        </p>
-                        <div class="single-item__sender-info">
-                            <div class="single-item__contact-field">
-                                <label
-                                    class="single-item__contact-field-label"
-                                    for="name"
-                                    >Name</label
-                                >
-                                <input
-                                    type="text"
-                                    name="name"
-                                    class="single-item__contact-field-input"
-                                    v-model="formData.name"
-                                />
-                            </div>
-                            <div class="single-item__contact-field">
-                                <label
-                                    class="single-item__contact-field-label"
-                                    for="email"
-                                    >Email</label
-                                >
-                                <input
-                                    type="email"
-                                    name="email"
-                                    class="single-item__contact-field-input"
-                                    v-model="formData.email"
-                                />
-                            </div>
-                        </div>
-
-                        <button class="single-item__contact-btn" type="submit">
-                            Submit
-                        </button>
-                    </form>
-
-                    <p v-if="formSubmitted" class="single-item__success">
-                        Thanks :) I'll get back to you as soon as possible.
-                    </p>
+                    </g-link>
 
                     <p class="single-item__details">
                         {{ $page.single.details }}
@@ -108,42 +50,9 @@ export default {
         };
     },
     data() {
-        return {
-            formData: {},
-            showForm: false,
-            formSubmitted: false,
-        };
+        return {};
     },
-    methods: {
-        paintingEncode(data) {
-            return Object.keys(data)
-                .map(
-                    (key) =>
-                        encodeURIComponent(key) +
-                        "=" +
-                        encodeURIComponent(data[key])
-                )
-                .join("&");
-        },
-        handlePaintingSubmit(e) {
-            this.formData.painting = this.$page.single.title;
-            this.formSubmitted = true;
-            fetch("/", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded",
-                },
-                body: this.paintingEncode({
-                    "form-name": e.target.getAttribute("name"),
-                    ...this.formData,
-                }),
-            })
-                .then(() => {
-                    this.formSubmitted = true;
-                })
-                .catch((error) => alert(error));
-        },
-    },
+    mounted() {},
 };
 </script>
 
