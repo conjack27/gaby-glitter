@@ -12,13 +12,12 @@
                         width="500"
                     />
 
-                    <g-link
+                    <a
                         class="button button-primary single-item__btn"
-                        target="_blank"
                         :href="`/contact?artwork=${$page.single.title}`"
                     >
                         Enquire about this artwork
-                    </g-link>
+                    </a>
 
                     <p class="single-item__details">
                         {{ $page.single.details }}

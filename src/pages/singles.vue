@@ -34,7 +34,7 @@
       edges {
         node {
             path
-            image
+            image (quality: 20)
             title
         }
       }
