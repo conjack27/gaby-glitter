@@ -51,7 +51,10 @@ export default {
     data() {
         return {};
     },
-    created() {},
+    created() {
+        console.log(this.$page);
+
+    },
     methods: {},
 };
 </script>

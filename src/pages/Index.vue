@@ -4,17 +4,18 @@
             <div class="row">
                 <div class="one-half column">
                     <g-link to="/Projects/">
-                        <div class="home__image home__image--1">
-                            <h1 class="home__image-heading">Projects</h1>
+                        <div class="home__image home__image--1" :style="{ 'background-image': 'url(' + $page.singlesMainImage.edges[0].node.coverImage + ')' }">
+                            <h1 class="home__image-heading">Projects
+                            </h1>
                             <div class="home__image-overlay"></div>
                         </div>
                     </g-link>
                 </div>
                 <div class="one-half column">
                     <g-link to="/singles/">
-                        <div class="home__image home__image--2">
+                        <div class="home__image home__image--2" :style="{ 'background-image': 'url(' + $page.projectsMainImage.edges[0].node.coverImage + ')' }">
                             <h1 class="home__image-heading">One-Offs</h1>
-                            <div class="home__image-overlay"></div>
+                            <div  class="home__image-overlay"></div>
                         </div>
                     </g-link>
                 </div>
@@ -23,13 +24,35 @@
     </Layout>
 </template>
 
-
+<page-query>
+  query MainImages {
+    projectsMainImage: allProjectsMainImage {
+      edges {
+        node {
+            path
+            coverImage
+        }
+      }
+    }
+    singlesMainImage: allSinglesMainImage {
+      edges {
+        node {
+            path
+            coverImage
+        }
+      }
+    }
+  }
+</page-query>
 
 <script>
 export default {
     metaInfo: {
         title: "Gaby Jonna",
     },
+    created() {
+        console.log('page',this.$page);
+    }
 };
 </script>
 
@@ -88,10 +111,4 @@ export default {
     }
 }
 
-.home__image--1 {
-    background-image: url("../assets/Images/eggs.jpg");
-}
-.home__image--2 {
-    background-image: url("../assets/Images/egg.jpg");
-}
 </style>
