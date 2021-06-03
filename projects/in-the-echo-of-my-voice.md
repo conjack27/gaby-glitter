@@ -10,4 +10,10 @@ images:
     details: The Conditioned and the Autonomous
   - image: /uploads/the-skin-i-live-in-performance-3.jpg
     details: Performing The Skin I Live in
+  - image: /uploads/liquid-lines-sculpture.jpg
+    details: Liquid Lines
+  - image: /uploads/metamorph-mould.jpg
+    details: Metamorph
+  - image: https://player.vimeo.com/video/546499265
+    details: Tenteculair Other
 ---
