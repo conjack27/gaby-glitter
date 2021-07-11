@@ -39,10 +39,7 @@ collections:
       folder: "projectsMainImage" # The path to the folder where the documents are stored
       widget: "image"
       fields:
-          - widget: string
-            name: name
-            label: Name
-            required: false
+          - {label: "Title", name: "title", widget: "string"}
           - widget: image
             name: image
             label: Image
@@ -53,10 +50,7 @@ collections:
       folder: "singlesMainImage" # The path to the folder where the documents are stored
       widget: "image"
       fields:
-          - widget: string
-            name: name
-            label: Name
-            required: false
+          - {label: "Title", name: "title", widget: "string"}
           - widget: image
             name: image
             label: Image
