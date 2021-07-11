@@ -35,6 +35,13 @@
                             class="nav__button"
                             :class="{ menuOpen: showMenu }"
                         ></span>
+                        <div class="header__social">
+                            <a
+                                class="header__linkedin"
+                                target="_blank"
+                                href="https://www.linkedin.com/in/gaby-waltman-b0b2a013b/"
+                            ></a>
+                        </div>
                     </nav>
                 </div>
             </div>
@@ -46,16 +53,7 @@
             <div class="container">
                 <div class="row">
                     <div class="footer__content">
-                        <div class="footer__social">
-                            <a
-                                class="footer__linkedin"
-                                target="_blank"
-                                href="https://www.linkedin.com/"
-                            ></a>
-                        </div>
-                        <div class="footer__text">
-                            © 2020 All rights reserved. Gabby Jonna
-                        </div>
+                        <div class="footer__text">Gabby Jonna © 2020</div>
                     </div>
                 </div>
             </div>
@@ -101,6 +99,31 @@ export default {
     }
 }
 
+.header__social {
+    margin-left: auto;
+}
+
+.header__linkedin {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        background-image: url("../assets/Icons/linkedin.svg");
+        background-position: center center;
+        background-size: 19px;
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 20px;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0.7;
+        }
+    }
+}
+
 .nav {
     width: 100%;
     display: flex;
@@ -122,7 +145,7 @@ export default {
 
     @media only screen and (min-width: 600px) {
         border-bottom: none;
-        flex: 0 1 150px;
+        flex: 0 1 180px;
     }
 }
 
@@ -134,6 +157,8 @@ export default {
     font-size: 18px;
     line-height: 24px;
     z-index: 8;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 .nav__link {
@@ -163,7 +188,7 @@ export default {
         flex-direction: row;
         justify-content: space-between;
         max-height: none;
-        max-width: 600px;
+        max-width: 610px;
         align-items: center;
         padding-left: 0;
         border-bottom: none;
@@ -218,32 +243,9 @@ export default {
     }
 }
 
-.footer__social {
-}
-
-.footer__linkedin {
-    position: relative;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        background-image: url("../assets/Icons/linkedin.svg");
-        background-position: center center;
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 20px;
-        height: 20px;
-    }
-
-    &:hover {
-        &::before {
-            opacity: 0.7;
-        }
-    }
-}
-
 .footer__text {
     margin-top: 30px;
+    font-style: italic;
 
     @media only screen and (min-width: 600px) {
         margin-top: 0;
