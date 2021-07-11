@@ -40,7 +40,7 @@
         </div>
     </Layout>
 </template>
-
+ 
 <page-query>
   query MainImages {
     projectsMainImage: allProjectsMainImage {
