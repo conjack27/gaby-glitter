@@ -33,3 +33,25 @@ collections:
             fields:
               - {label: Image, name: image, widget: image}
               - {label: Details, name: details, widget: string}
+    - name: "projectsMainImage"
+      label: "Project Main Image"
+      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+      folder: "projectsMainImage" # The path to the folder where the documents are stored
+      widget: "image"
+      fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - widget: image
+            name: image
+            label: Image
+            required: true
+    - name: "singlesMainImage"
+      label: "One-off Main Image"
+      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+      folder: "singlesMainImage" # The path to the folder where the documents are stored
+      widget: "image"
+      fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - widget: image
+            name: image
+            label: Image
+            required: true
