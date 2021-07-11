@@ -4,18 +4,35 @@
             <div class="row">
                 <div class="one-half column">
                     <g-link to="/Projects/">
-                        <div class="home__image home__image--1" :style="{ 'background-image': 'url(' + $page.singlesMainImage.edges[0].node.coverImage + ')' }">
-                            <h1 class="home__image-heading">Projects
-                            </h1>
+                        <div
+                            class="home__image home__image--1"
+                            :style="{
+                                'background-image':
+                                    'url(' +
+                                    $page.singlesMainImage.edges[0].node
+                                        .coverImage +
+                                    ')',
+                            }"
+                        >
+                            <h1 class="home__image-heading">Projects</h1>
                             <div class="home__image-overlay"></div>
                         </div>
                     </g-link>
                 </div>
                 <div class="one-half column">
                     <g-link to="/singles/">
-                        <div class="home__image home__image--2" :style="{ 'background-image': 'url(' + $page.projectsMainImage.edges[0].node.coverImage + ')' }">
+                        <div
+                            class="home__image home__image--2"
+                            :style="{
+                                'background-image':
+                                    'url(' +
+                                    $page.projectsMainImage.edges[0].node
+                                        .coverImage +
+                                    ')',
+                            }"
+                        >
                             <h1 class="home__image-heading">One-Offs</h1>
-                            <div  class="home__image-overlay"></div>
+                            <div class="home__image-overlay"></div>
                         </div>
                     </g-link>
                 </div>
@@ -51,8 +68,8 @@ export default {
         title: "Gaby Jonna",
     },
     created() {
-        console.log('page',this.$page);
-    }
+        console.log("page", this.$page);
+    },
 };
 </script>
 
@@ -101,7 +118,8 @@ export default {
     top: 40%;
     left: 20%;
     text-transform: uppercase;
-    font-size: 42px;
+    font-size: 32px;
+    letter-spacing: 1px;
     color: $white;
     transition: opacity 0.2s linear;
 
@@ -110,5 +128,4 @@ export default {
         opacity: 0;
     }
 }
-
 </style>
