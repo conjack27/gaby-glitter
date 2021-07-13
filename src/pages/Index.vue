@@ -2,7 +2,7 @@
     <Layout>
         <div class="container">
             <div class="row">
-                <div class="one-half column">
+                <!-- <div class="one-half column">
                     <g-link to="/Projects/">
                         <div
                             class="home__image home__image--1"
@@ -35,32 +35,13 @@
                             <div class="home__image-overlay"></div>
                         </div>
                     </g-link>
-                </div>
+                </div> -->
             </div>
         </div>
     </Layout>
 </template>
  
-<page-query>
-  query MainImages {
-    projectsMainImage: allProjectsMainImage {
-      edges {
-        node {
-            path
-            coverImage
-        }
-      }
-    }
-    singlesMainImage: allSinglesMainImage {
-      edges {
-        node {
-            path
-            coverImage
-        }
-      }
-    }
-  }
-</page-query>
+
 
 <script>
 export default {
