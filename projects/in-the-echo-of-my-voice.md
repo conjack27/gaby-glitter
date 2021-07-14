@@ -5,19 +5,27 @@ video: https://player.vimeo.com/video/488998141
 description: More Eggs
 images:
   - image: /uploads/drawing-i-the-other.jpg
-    details: I the Other, drawing, 21 cm x 29,7 cm
+    title: I the Other, drawing, 21 cm x 29,7 cm
+    details: drawing, 21 cm x 29,7 cm
   - image: /uploads/keep-me-sculpture.jpg
-    details: The Conditioned and the Autonomous
+    title: The Conditioned and the Autonomous
+    details: drawing, 21 cm x 29,7 cm
   - image: /uploads/the-skin-i-live-in-performance-3.jpg
-    details: Performing The Skin I Live in
+    title: Performing The Skin I Live in
+    details: drawing, 21 cm x 29,7 cm
   - image: /uploads/liquid-lines-sculpture.jpg
-    details: Liquid Lines
+    title: Liquid Lines
+    details: drawing, 21 cm x 29,7 cm
   - image: /uploads/metamorph-mould.jpg
-    details: Metamorph
+    title: Metamorph
+    details: drawing, 21 cm x 29,7 cm
   - image: https://player.vimeo.com/video/488998141
-    details: Tenteculair Other
+    title: Tenteculair Other
+    details: drawing, 21 cm x 29,7 cm
   - image: https://vimeo.com/546499265
-    details: Try out 2
+    title: Try out 2
+    details: drawing, 21 cm x 29,7 cm
   - image: https://player.vimeo.com/video/488998141
-    details: Try out 3
+    title: Try out 3
+    details: drawing, 21 cm x 29,7 cm
 ---

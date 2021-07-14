@@ -19,7 +19,9 @@
                         />
 
                         <h1 class="masonry-item__image-heading">
-                            {{ single.node.title }}
+                            <span class="masonry-item__image-heading-text">
+                                {{ single.node.title }}
+                            </span>
                         </h1>
                     </div>
                 </div>

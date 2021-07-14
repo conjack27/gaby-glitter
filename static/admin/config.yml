@@ -32,6 +32,7 @@ collections:
             widget: list
             fields:
               - {label: Image, name: image, widget: image}
+              - {label: Title, name: title, widget: string}
               - {label: Details, name: details, widget: string}
     - name: "projectsMainImage"
       label: "Project Main Image"
