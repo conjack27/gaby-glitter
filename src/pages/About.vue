@@ -24,6 +24,20 @@
     </Layout>
 </template>
 
+<page-query>
+  query Projects {
+    project: allProject {
+      edges {
+        node {
+          path
+          title
+          coverImage
+        }
+      }
+    }
+  }
+</page-query>
+
 <script>
 export default {
     metaInfo: {
