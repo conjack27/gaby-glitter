@@ -59,6 +59,12 @@ export default {
 
 .about__text {
     margin-top: 30px;
+    text-align: center;
+
+    h1 {
+        text-transform: uppercase;
+    }
+
     @media only screen and (min-width: 600px) {
         margin-top: 0px;
         margin-left: 30px;

@@ -4,6 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 
 import '~/assets/skeleton.css'
+import '~/assets/main.scss'
 import '~/assets/normalize.css'
 
 export default function (Vue, { router, head, isClient }) {

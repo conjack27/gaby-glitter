@@ -2,7 +2,7 @@
     <Layout>
         <div class="container">
             <div class="row">
-                <h1>Get in touch</h1>
+                <h1 class="contact__title">Get in touch</h1>
                 <div class="contact">
                     <form
                         name="contact"
@@ -48,7 +48,7 @@
                         <div class="contact__field">
                             <label 
                                 class="contact__field-label"
-                            for="message">Painting you want to know more about</label>
+                            for="message">The work you want to know more about</label>
                             <input
                                 type="text"
                                 name="message"
@@ -61,7 +61,11 @@
                     </form>
                     <p  class="contact__success" v-else>Thanks! I will get back to you as soon as possible :)</p>
                     <div class="contact__info">
-                        <p>For other requests/questions, feel free to send me an email at <a href="mailto:graham.connor@gmail.com">gabyjonna@gmail.com</a></p>
+                        <p>For other questions/requests, feel free to contact me.</p>
+                        <p class="contact__info-details">
+                            <span class="contact__info-details--email">E: <a href="mailto:gabyjonna@gmail.com"><b>gabyjonna@gmail.com</b></a></span>
+                            <span class="contact__info-details--phone">T: <b>+31 (0)6 54 71 62 72</b></span>
+                        </p>
                     </div> 
                 </div>
             </div>
@@ -130,15 +134,25 @@ export default {
 .contact__info {
     font-size: 18px;
     margin-top: 20px;
+    text-align: center;
 
     @media only screen and (min-width: 600px) {
-        margin-left: 100px;
+        margin-left: 80px;
+        padding-top: 70px;
+        max-width: 320px;
     }
 }
 
 .contact__success {
     font-size: 18px;
     margin-top: 20px;
+}
+
+.contact__title {
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-align: center;
+
 }
 
 .contact__form {
@@ -150,7 +164,7 @@ export default {
 }
 
 .contact__btn {
-    display: block;
+    width: 100%;
 }
 
 .contact__field-input {
@@ -164,5 +178,22 @@ export default {
 .contact__field-label {
     font-size: 20px;
     font-weight: 400;
+}
+
+.contact__info-details {
+    display: flex;
+    flex-wrap: wrap;
+    font-style: italic;
+
+    span {
+        flex: 0 1 100%;
+        letter-spacing: 0.7px;
+    }
+}
+
+.contact__info-details--email {
+    a {
+        font-style: normal;
+    }
 }
 </style>

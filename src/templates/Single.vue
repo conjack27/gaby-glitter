@@ -6,6 +6,9 @@
                     <h1 class="single-item__heading">
                         {{ $page.single.title }}
                     </h1>
+                    <p class="single-item__details">
+                        {{ $page.single.description }}
+                    </p>
                     <g-image
                         class="single-item__image"
                         :src="$page.single.image"
@@ -16,15 +19,9 @@
                         class="button button-primary single-item__btn"
                         :href="`/contact?artwork=${$page.single.title}`"
                     >
-                        Enquire about this artwork
+                        Enquire about this work
                     </a>
-
-                    <p class="single-item__details">
-                        {{ $page.single.details }}
-                    </p>
-                    <p class="single-item__content">
-                        {{ $page.single.description }}
-                    </p>
+                    
                 </div>
             </div>
         </div>
@@ -126,5 +123,19 @@ export default {
         margin-top: 0;
     }
 }
+
+.single-item__heading {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.single-item__details {
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: initial;
+}
+
 </style>
 

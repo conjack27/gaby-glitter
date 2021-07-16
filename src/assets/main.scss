@@ -91,3 +91,37 @@ body {
     text-align: center;
     margin: 0 10px 0 10px;
 }
+
+// skeleton css overrides
+
+.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+    background-color: #687876;
+    border-color: #687876;
+}
+
+.contact__btn {
+    background-color: #687876;
+    border-color: #687876;
+    color: #ffffff;
+
+    &:hover {
+        color: #ffffff;
+        background-color: #728381;
+        border-color: #728381;
+    }
+}
+
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+    background-color: #728381;
+    border-color: #728381;
+}
+
+a {
+    color: #687876;
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea {
+    border-radius: 5px;
+    border-color: #728381;
+    border: 1px solid #728381;
+}
