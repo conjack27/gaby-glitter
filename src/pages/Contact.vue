@@ -1,7 +1,7 @@
 <template>
     <Layout>
         <div class="container">
-            <div class="row">
+            <div class="row contact-block">
                 <h1 class="contact__title">Get in touch</h1>
                 <div class="contact">
                     <form
@@ -48,7 +48,7 @@
                         <div class="contact__field">
                             <label 
                                 class="contact__field-label"
-                            for="message">The work you want to know more about</label>
+                            for="message">The work in question</label>
                             <input
                                 type="text"
                                 name="message"
@@ -59,11 +59,11 @@
 
                         <button class="contact__btn" type="submit">Submit</button>
                     </form>
-                    <p  class="contact__success" v-else>Thanks! I will get back to you as soon as possible :)</p>
+                    <p  class="contact__success" v-else>Thank you! I will get back to you as soon as possible :)</p>
                     <div class="contact__info">
                         <p>For other questions/requests, feel free to contact me.</p>
                         <p class="contact__info-details">
-                            <span class="contact__info-details--email">E: <a href="mailto:gabyjonna@gmail.com"><b>gabyjonna@gmail.com</b></a></span>
+                            <span class="contact__info-details--email">E: <a href="mailto:info@gabyjonna.com"><b>info@gabyjonna.com</b></a></span>
                             <span class="contact__info-details--phone">T: <b>+31 (0)6 54 71 62 72</b></span>
                         </p>
                     </div> 
@@ -121,6 +121,9 @@ export default {
 </script>
 
 <style lang="scss">
+.contact-block {
+}
+
 .contact {
     display: flex;
     flex-direction: column;
@@ -128,6 +131,7 @@ export default {
 
     @media only screen and (min-width: 600px) {
         flex-direction: row;
+        min-height: 368px;
     }
 }
 
@@ -144,15 +148,20 @@ export default {
 }
 
 .contact__success {
-    font-size: 18px;
+    font-size: 21px;
     margin-top: 20px;
+    font-weight: 700;
+
+    @media only screen and (min-width: 600px) {
+        margin-top: 140px;
+    }
 }
 
 .contact__title {
     letter-spacing: 1px;
     font-weight: 700;
     text-align: center;
-
+    text-transform: uppercase;
 }
 
 .contact__form {
@@ -172,6 +181,7 @@ export default {
     height: 50px;
     font-size: 18px;
     @media only screen and (min-width: 600px) {
+        min-width: 300px;
     }
 }
 
@@ -194,6 +204,10 @@ export default {
 .contact__info-details--email {
     a {
         font-style: normal;
+
+        &:hover {
+            text-decoration: none;
+        }
     }
 }
 </style>
