@@ -31,11 +31,17 @@
                     >
                         <g-image class="masonry-item__image" :src="img.image" />
                         <p
-                            class="masonry-item__image-heading masonry-item__image--details"
+                            class="
+                                masonry-item__image-heading
+                                masonry-item__image--details
+                            "
                         >
-                        <span class="masonry-item__image--details-title">{{ img.title }} </span>
-                        <span class="masonry-item__image--details-text">{{ img.details }}</span>
-                            
+                            <span class="masonry-item__image--details-title"
+                                >{{ img.title }}
+                            </span>
+                            <span class="masonry-item__image--details-text">{{
+                                img.details
+                            }}</span>
                         </p>
                     </div>
                 </div>
@@ -81,7 +87,7 @@ export default {
 
 .masonry-item__image--details-title {
     font-size: 18px;
-    font-style: italic;
+    font-style: normal;
     text-transform: uppercase;
     text-align: center;
     line-height: 1;

@@ -79,10 +79,10 @@ body {
     margin: 0;
     text-align: center;
     width: 100%;
+    top: 46%;
 
     @media only screen and (min-width: 600px) {
         opacity: 0;
-        top: 45%;
     }
 }
 
@@ -118,6 +118,10 @@ body {
 
 a {
     color: #687876;
+
+    &:hover {
+        color: #687876;
+    }
 }
 
 input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea {

@@ -9,8 +9,7 @@
                             :style="{
                                 'background-image':
                                     'url(' +
-                                    $page.singlesMainImage.edges[0].node
-                                        .image +
+                                    $page.singlesMainImage.edges[0].node.image +
                                     ')',
                             }"
                         >
@@ -84,6 +83,7 @@ export default {
     height: 50vh;
     position: relative;
     z-index: 1;
+    margin-bottom: 10px;
 
     &:hover {
         .home__image-overlay {

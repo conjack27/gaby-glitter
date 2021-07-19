@@ -21,7 +21,6 @@
                     >
                         Enquire about this work
                     </a>
-                    
                 </div>
             </div>
         </div>
@@ -71,10 +70,6 @@ export default {
         max-width: 300px;
         align-self: center;
     }
-}
-
-.single-item__details {
-    font-style: italic;
 }
 
 .single-item__image {
@@ -134,8 +129,8 @@ export default {
 .single-item__details {
     text-align: center;
     letter-spacing: 1px;
-    font-style: initial;
+    font-size: 26px;
+    margin-bottom: 22px;
 }
-
 </style>
 

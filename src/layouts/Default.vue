@@ -53,7 +53,7 @@
             <div class="container">
                 <div class="row">
                     <div class="footer__content">
-                        <div class="footer__text">Gabby Jonna © 2020</div>
+                        <div class="footer__text">Gaby Jonna © 2020</div>
                     </div>
                 </div>
             </div>
@@ -246,6 +246,7 @@ export default {
 .footer__text {
     margin-top: 30px;
     font-style: italic;
+    text-align: right;
 
     @media only screen and (min-width: 600px) {
         margin-top: 0;
