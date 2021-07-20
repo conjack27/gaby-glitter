@@ -1,7 +1,13 @@
 ---
 title: In the Echo of my Voice
 coverImage: /uploads/statement-2500px-x-2000-px.jpg
-video: https://player.vimeo.com/video/488998141
+videos: 
+  - video: https://player.vimeo.com/video/488998141
+    title: test
+  - video: https://player.vimeo.com/video/488998141
+    title: test
+  - video: https://player.vimeo.com/video/488998141
+    title: Tenteculair Other
 description: More Eggs
 images:
   - image: /uploads/drawing-i-the-other.jpg
@@ -18,14 +24,5 @@ images:
     details: drawing, 21 cm x 29,7 cm
   - image: /uploads/metamorph-mould.jpg
     title: Metamorph
-    details: drawing, 21 cm x 29,7 cm
-  - image: https://player.vimeo.com/video/488998141
-    title: Tenteculair Other
-    details: drawing, 21 cm x 29,7 cm
-  - image: https://vimeo.com/546499265
-    title: Try out 2
-    details: drawing, 21 cm x 29,7 cm
-  - image: https://player.vimeo.com/video/488998141
-    title: Try out 3
     details: drawing, 21 cm x 29,7 cm
 ---

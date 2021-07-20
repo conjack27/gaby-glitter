@@ -39,7 +39,7 @@
                             <a
                                 class="header__linkedin"
                                 target="_blank"
-                                href="https://www.linkedin.com/in/gaby-waltman-b0b2a013b/"
+                                href="https://www.linkedin.com/in/gaby-jonna-waltman-b0b2a013b/"
                             ></a>
                         </div>
                     </nav>
@@ -101,6 +101,7 @@ export default {
 
 .header__social {
     margin-left: auto;
+    padding-top: 8px;
 }
 
 .header__linkedin {

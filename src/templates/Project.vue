@@ -5,10 +5,11 @@
             <div class="row">
                 <h1 class="project__title">{{ $page.project.title }}</h1>
                 <p class="project__subtitle">{{ $page.project.description }}</p>
-                <div v-if="$page.project.video" class="project__video">
-                    <div style="padding: 75% 0 0 0; position: relative">
+                <div v-if="$page.project.videos.length > 0"  class="project__video">
+                    <div v-for="(vid, i) in $page.project.videos"
+                        :key="i" style="padding: 75% 0 0 0; position: relative">
                         <iframe
-                            :src="$page.project.video"
+                            :src="vid.video"
                             style="
                                 position: absolute;
                                 top: 0;
@@ -55,7 +56,10 @@
         project: project (path: $path) {
             title
             description
-            video
+            videos {
+                video
+                title
+            }
             images {
                 image
                 title
