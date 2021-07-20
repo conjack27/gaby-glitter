@@ -10,8 +10,8 @@
                     />
                     <div class="about__text">
                         <h1>About me</h1>
-                        <div>{{$page.aboutText.edges[0].node
-                                        .aboutText}}</div>
+                        <div v-html="$page.aboutText.edges[0].node
+                                        .aboutText"></div>
                     </div>
                 </div>
             </div>
