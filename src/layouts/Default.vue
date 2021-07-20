@@ -104,22 +104,24 @@ export default {
 }
 
 .header__linkedin {
-    position: relative;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 10px;
-        background-image: url("../assets/Icons/linkedin.svg");
-        background-position: center center;
-        background-size: 19px;
-        background-repeat: no-repeat;
-        width: 21px;
-        height: 20px;
-    }
-
-    &:hover {
+    @media only screen and (min-width: 600px) {
+        position: relative;
         &::before {
-            opacity: 0.7;
+            content: "";
+            position: absolute;
+            top: 10px;
+            background-image: url("../assets/Icons/linkedin.svg");
+            background-position: center center;
+            background-size: 19px;
+            background-repeat: no-repeat;
+            width: 21px;
+            height: 20px;
+        }
+
+        &:hover {
+            &::before {
+                opacity: 0.7;
+            }
         }
     }
 }
@@ -130,8 +132,9 @@ export default {
     flex-wrap: wrap;
 
     @media only screen and (min-width: 600px) {
-        padding: 10px;
         flex-wrap: nowrap;
+        min-height: 64px;
+        position: relative;
     }
 }
 
@@ -146,6 +149,14 @@ export default {
     @media only screen and (min-width: 600px) {
         border-bottom: none;
         flex: 0 1 180px;
+        padding-top: 19px;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        position: absolute;
+        left: -170px;
+        top: 9px;
+        padding-top: 10px;
     }
 }
 

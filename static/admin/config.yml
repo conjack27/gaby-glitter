@@ -67,9 +67,7 @@ collections:
     - name: "aboutText"
       label: "About page text"
       create: true # Allow users to create new documents in this collection
-      slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
       folder: "aboutText" # The path to the folder where the documents are stored
-      widget: "markdown"
       fields:
           - widget: markdown
             name: aboutText

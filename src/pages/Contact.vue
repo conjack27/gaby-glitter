@@ -122,9 +122,15 @@ export default {
 
 <style lang="scss">
 .contact-block {
+    @media only screen and (min-width: 600px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .contact {
+    flex: 0 1 100%;
     display: flex;
     flex-direction: column;
     margin-top: 40px;
@@ -158,6 +164,7 @@ export default {
 }
 
 .contact__title {
+    flex: 0 1 100%;
     letter-spacing: 1px;
     font-weight: 700;
     text-align: center;
