@@ -8,18 +8,12 @@ aboutText: >-
 
 
 
-
-
   This dialogue is an evolving perspective: the view of the beholder and view of the creator are often different. This makes it an ever-evolving conversation. In the end the viewer becomes the participant and completes the work as they become the creator of their own self. 
 
 
 
 
-
-
   Creating and experiencing creation is not only something we do with our sight, but rather with all of our faculties. Our nerves, instincts, memories and senses in relation to our awareness of existing. All the while becoming aware and understanding there are more views possible, for you to apply or to acknowledge. Or just to question. 
-
-
 
 
 
