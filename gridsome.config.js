@@ -40,6 +40,13 @@ module.exports = {
         path: 'singlesMainImage/**/*.md',
         typeName: 'SinglesMainImage',
       }
+    },
+    {
+      use: '@gridsome/source-filesystem',
+      options: {
+        path: 'aboutText/**/*.md',
+        typeName: 'AboutText',
+      }
     }
   ],
   transformers: {
