@@ -1,4 +1,4 @@
 ---
 name: test
-image: /uploads/asfd.jpg
+image: /uploads/liquid-lines-sculpture-copy.jpg
 ---
