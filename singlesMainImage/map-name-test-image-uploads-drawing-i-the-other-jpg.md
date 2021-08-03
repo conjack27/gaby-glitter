@@ -1,4 +1,4 @@
 ---
 name: test
-image: /uploads/drawing-i-the-other.jpg
+image: /uploads/img_9057-copy.jpg
 ---
