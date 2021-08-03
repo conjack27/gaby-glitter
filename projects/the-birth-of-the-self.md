@@ -25,6 +25,9 @@ images:
   - image: /uploads/sculpture-birth-of-the-self.jpg
     title: Metamorph
     details: drawing, 21 cm x 29,7 cm
+  - image: /uploads/img_9057-copy.jpg
+    title: I Other
+    details: x
 videos:
   - video: https://player.vimeo.com/video/488998141
     title: Tenteculair Other
