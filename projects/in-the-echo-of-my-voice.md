@@ -10,7 +10,7 @@ description: "The Self is partly constructed by others when we mirror the Other
   autonomous Self begin. Is it possible to leave our psychological skin. Can we
   give Birth to the Self."
 images:
-  - image: /uploads/drawing-i-the-other.jpg
+  - image: /uploads/metamorph-mould.jpg
     title: I the Other, drawing, 21 cm x 29,7 cm
     details: drawing, 21 cm x 29,7 cm
   - image: /uploads/keep-me-sculpture.jpg
