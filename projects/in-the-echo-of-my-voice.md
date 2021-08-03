@@ -27,9 +27,5 @@ images:
     details: drawing, 21 cm x 29,7 cm
 videos:
   - video: https://player.vimeo.com/video/488998141
-    title: test
-  - video: https://player.vimeo.com/video/488998141
-    title: test
-  - video: https://player.vimeo.com/video/488998141
     title: Tenteculair Other
 ---
