@@ -28,6 +28,9 @@ images:
   - image: /uploads/img_9057-copy.jpg
     title: I Other
     details: x
+  - image: /uploads/i-the-other-drawing.jpg
+    title: I, the Other
+    details: drawing, 21 cm x 29,7 cm
 videos:
   - video: https://player.vimeo.com/video/488998141
     title: Tenteculair Other
