@@ -22,7 +22,7 @@ images:
   - image: /uploads/liquid-lines-sculpture-copy.jpg
     title: Liquid Lines
     details: drawing, 21 cm x 29,7 cm
-  - image: /uploads/metamorph-mould.jpg
+  - image: /uploads/sculpture-birth-of-the-self.jpg
     title: Metamorph
     details: drawing, 21 cm x 29,7 cm
 videos:
