@@ -19,7 +19,7 @@ images:
   - image: /uploads/the-skin-i-live-in-performance-3.jpg
     title: Performing The Skin I Live in
     details: drawing, 21 cm x 29,7 cm
-  - image: /uploads/liquid-lines-sculpture.jpg
+  - image: /uploads/liquid-lines-sculpture-copy.jpg
     title: Liquid Lines
     details: drawing, 21 cm x 29,7 cm
   - image: /uploads/metamorph-mould.jpg
