@@ -1,6 +1,6 @@
 ---
 title: Iris - The Evolution of Devolution
-coverImage: /uploads/liquid-lines-sculpture-copy.jpg
+coverImage: /uploads/iris-the-manifest-bewerkt.png
 description: "The Self is partly constructed by others when we mirror the Other
   to condition the Self how to behave and how to be. While mirroring others, we
   can get conflicted, when a part of the Self would not resonate with Other’s
