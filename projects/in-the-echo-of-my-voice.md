@@ -1,5 +1,5 @@
 ---
-title: The Birth of the Self
+title: Iris - The Evolution of Devolution
 coverImage: /uploads/liquid-lines-sculpture-copy.jpg
 description: "The Self is partly constructed by others when we mirror the Other
   to condition the Self how to behave and how to be. While mirroring others, we
