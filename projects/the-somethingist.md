@@ -1,14 +1,14 @@
 ---
 title: The Somethingist
 coverImage: /uploads/the-somethingist-1.png
-description: The Somethingist is constantly researching new ideas and thoughts.
-  It is a continuous process where there are no wrong questions. It is searching
-  in all layers of written and can transform these thoughts and ideas to its own
-  vision. Blank but a place where all existing colors are assembled.  The
-  textiles show the exploration of different paths, of the different spaces of
-  blank and blankend. These are textiles with the underlying thought that the
-  textile can and might change by wearing them, depending on the individual who
-  is wearing / exploring the textile.
+description: "The Somethingist is constantly researching new ideas and thoughts.
+  It is a continuous process with no wrong questions or answers. It is a
+  research in all layers of the known and unknown and these thoughts and ideas
+  can be transformed to ones own vision. A blank space but a place where all
+  existing colors are assembled.  The textiles show the exploration of different
+  paths, of the different spaces of blank and blanked. These are textiles with
+  the underlying thought that the textile can and might change by wearing them,
+  depending on the individual who is wearing/exploring the textile. "
 images:
   - image: /uploads/the-somethingist-2.png
     title: The Somethingist book, p. 01 - 02
