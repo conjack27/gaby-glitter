@@ -24,4 +24,7 @@ images:
   - details: 66 cm x 48 cm x 5 cm
     title: The Somethingist book, p. 13 - 14
     image: /uploads/the-somethingist-8.png
+videos:
+  - title: Shortfilm The Somethingist
+    video: https://vimeo.com/435462607
 ---
