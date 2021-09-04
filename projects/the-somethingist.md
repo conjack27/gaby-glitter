@@ -26,5 +26,5 @@ images:
     image: /uploads/the-somethingist-8.png
 videos:
   - title: Shortfilm The Somethingist
-    video: https://vimeo.com/435462607
+    video: https://player.vimeo.com/video/435462607
 ---
