@@ -1,5 +1,5 @@
 ---
-title: Iris - The Manifest
+title: Iris
 coverImage: /uploads/iris-the-manifest-bewerkt.png
 description: xxx
 ---
