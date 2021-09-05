@@ -24,6 +24,18 @@ images:
   - image: /uploads/img_3124ed.jpg
     title: Prosper
     details: photography
+  - image: /uploads/a-tilandsia-life.jpg
+    title: x
+    details: x
+  - image: /uploads/screenshot-2021-09-05-at-12.09.23.png
+    title: x
+    details: x
+  - image: /uploads/a-tilandsia-life2.jpg
+    title: x
+    details: x
+  - image: /uploads/screenshot-2021-09-05-at-12.09.48.png
+    title: x
+    details: x
 videos:
   - video: https://player.vimeo.com/video/435549161
     title: Prosper
