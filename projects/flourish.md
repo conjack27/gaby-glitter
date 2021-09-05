@@ -19,7 +19,7 @@ description: Avoiding death is one of the most fundamental human instincts. The
   beginning and the end of everything and offers the information for evolution.
 images:
   - image: /uploads/img_3061ed.jpg
-    title: x
+    title: Prosper
     details: photography
 videos:
   - video: https://player.vimeo.com/video/435549161
