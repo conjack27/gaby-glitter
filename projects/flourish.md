@@ -30,9 +30,6 @@ images:
   - image: /uploads/screenshot-2021-09-05-at-12.09.23.png
     title: x
     details: Growing Buttons, diameter 1,5 cm
-  - image: /uploads/screenshot-2021-09-05-at-12.09.48.png
-    title: x
-    details: x
   - image: /uploads/a-tilandsia-life2.jpg
     title: Flourish
     details: mixed media, 30 cm x 21 cm
