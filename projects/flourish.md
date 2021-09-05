@@ -20,7 +20,7 @@ description: Avoiding death is one of the most fundamental human instincts. The
 images:
   - image: /uploads/img_3061ed.jpg
     title: x
-    details: x
+    details: photography
 videos:
   - video: https://player.vimeo.com/video/435549161
     title: Prosper
