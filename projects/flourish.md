@@ -22,20 +22,20 @@ images:
     title: Prosper
     details: photography
   - image: /uploads/a-tilandsia-life.jpg
-    title: x
-    details: 30 cm x 21 cm
+    title: Flourish
+    details: mixed media, 30 cm x 21 cm
   - image: /uploads/img_3124ed.jpg
     title: Prosper
     details: photography
   - image: /uploads/screenshot-2021-09-05-at-12.09.23.png
     title: x
-    details: x
+    details: Button
   - image: /uploads/screenshot-2021-09-05-at-12.09.48.png
     title: x
     details: x
   - image: /uploads/a-tilandsia-life2.jpg
-    title: x
-    details: 30 cm x 21 cm
+    title: Flourish
+    details: mixed media, 30 cm x 21 cm
 videos:
   - video: https://player.vimeo.com/video/435549161
     title: Prosper
