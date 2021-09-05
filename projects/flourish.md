@@ -21,6 +21,9 @@ images:
   - image: /uploads/img_3061ed.jpg
     title: Prosper
     details: photography
+  - image: /uploads/img_3124ed.jpg
+    title: Prosper
+    details: photography
 videos:
   - video: https://player.vimeo.com/video/435549161
     title: Prosper
