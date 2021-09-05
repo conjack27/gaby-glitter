@@ -28,7 +28,7 @@ images:
     title: Prosper
     details: photography
   - image: /uploads/screenshot-2021-09-05-at-12.09.23.png
-    title: x
+    title: Bulb
     details: Growing Buttons, diameter 1,5 cm
   - image: /uploads/a-tilandsia-life2.jpg
     title: Flourish
