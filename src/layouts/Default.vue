@@ -37,7 +37,12 @@
                         ></span>
                         <div class="header__social">
                             <a
-                                class="header__linkedin"
+                                class="header__social-icon header__social-icon--instagram"
+                                target="_blank"
+                                href="https://www.instagram.com"
+                            ></a>
+                            <a
+                                class="header__social-icon header__social-icon--linkedin"
                                 target="_blank"
                                 href="https://www.linkedin.com/in/gaby-jonna-waltman-b0b2a013b/"
                             ></a>
@@ -102,28 +107,59 @@ export default {
 .header__social {
     margin-left: auto;
     padding-top: 8px;
-}
+    display: flex;
+    width: 20px;
+    position: absolute;
+    margin-left: 10px;
+    bottom: 40px;
 
-.header__linkedin {
     @media only screen and (min-width: 600px) {
         position: relative;
-        &::before {
-            content: "";
-            position: absolute;
-            top: 10px;
-            background-image: url("../assets/Icons/linkedin.svg");
-            background-position: center center;
-            background-size: 19px;
-            background-repeat: no-repeat;
-            width: 21px;
-            height: 20px;
-        }
+        margin-left: auto;
+        bottom: 0;
+    }
+}
 
-        &:hover {
-            &::before {
-                opacity: 0.7;
-            }
+.header__social-icon {
+    position: relative;
+    width: 10px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 10px;
+        background-position: center center;
+        background-size: 19px;
+        background-repeat: no-repeat;
+        width: 21px;
+        height: 20px;
+    }
+
+    &:hover {
+        &::before {
+            opacity: 0.7;
         }
+    }
+}
+
+.header__social-icon--linkedin {
+    margin-left: 25px;
+
+    @media only screen and (min-width: 600px) {
+        margin-left: 20px;
+    }
+
+    &::before {
+        background-image: url("../assets/Icons/linkedin.svg");
+    }
+}
+
+.header__social-icon--instagram {
+    @media only screen and (min-width: 600px) {
+        margin-left: -30px;
+    }
+    &::before {
+        background-image: url("../assets/Icons/instagram.svg");
     }
 }
 
@@ -131,11 +167,11 @@ export default {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    position: relative;
 
     @media only screen and (min-width: 600px) {
         flex-wrap: nowrap;
         min-height: 64px;
-        position: relative;
     }
 }
 
@@ -194,6 +230,11 @@ export default {
     &.show {
         padding-top: 10px;
         max-height: 184px;
+        padding-bottom: 50px;
+
+        @media only screen and (min-width: 600px) {
+            padding-bottom: 10px;
+        }
     }
 
     @media only screen and (min-width: 600px) {

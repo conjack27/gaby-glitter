@@ -21,7 +21,6 @@ body {
     background-color: $cream;
 }
 
-
 .masonry {
     @media only screen and (min-width: 600px) {
         gap: 2rem;
@@ -32,6 +31,7 @@ body {
 .masonry-item {
     position: relative;
     z-index: 1;
+    line-height: 3.5;
 
     &:hover {
         .masonry-item__image-heading {
@@ -72,7 +72,7 @@ body {
     top: 20px;
     left: 0;
     text-transform: uppercase;
-    letter-spacing: 1px;;
+    letter-spacing: 1px;
     font-size: 18px;
     color: $white;
     transition: opacity 0.2s linear;
@@ -94,7 +94,11 @@ body {
 
 // skeleton css overrides
 
-.button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
     background-color: #687876;
     border-color: #687876;
 }
@@ -111,7 +115,16 @@ body {
     }
 }
 
-.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
     background-color: #728381;
     border-color: #728381;
 }
@@ -124,7 +137,14 @@ a {
     }
 }
 
-input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea {
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
     border-radius: 5px;
     border-color: #728381;
     border: 1px solid #728381;
