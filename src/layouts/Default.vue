@@ -39,7 +39,7 @@
                             <a
                                 class="header__social-icon header__social-icon--instagram"
                                 target="_blank"
-                                href="https://www.instagram.com"
+                                href="https://www.instagram.com/gabyjonna/"
                             ></a>
                             <a
                                 class="header__social-icon header__social-icon--linkedin"
