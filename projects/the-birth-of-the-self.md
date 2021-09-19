@@ -22,7 +22,7 @@ images:
     title: Metamorph
     details: sculpture, plaster, 36 cm x 42 cm x 31 cm
   - image: /uploads/sculpture-birth-of-the-self.jpg
-    title: The Birth of Self
+    title: The Birth of the Self
     details: "31cm x 19.5cm x 18cm "
   - image: /uploads/img_9057-copy.jpg
     title: I Other
