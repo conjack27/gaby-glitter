@@ -1,7 +1,7 @@
 ---
-title: test9
+title: Liquid desire
 image: /uploads/img_9057-copy.jpg
-details: test
-description: The land of liquid fears
+details: Oil on cotton, 120cm x 80cm
+description: Oil on cotton, 120cm x 80cm
 ---
 test
