@@ -4,14 +4,15 @@
             <div class="row">
                 <div class="about">
                     <img
-                        src="../assets/Images/gaby.jpg"
+                        src="../assets/Images/Gaby-Jonna.jpg"
                         alt="Me :)"
                         class="about__image"
                     />
                     <div class="about__text">
                         <h1>About me</h1>
-                        <div v-html="$page.aboutText.edges[0].node
-                                        .aboutText"></div>
+                        <div
+                            v-html="$page.aboutText.edges[0].node.aboutText"
+                        ></div>
                     </div>
                 </div>
             </div>
