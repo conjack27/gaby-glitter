@@ -15,18 +15,15 @@ description: With the work The Birth of Self, I touch upon philosophical themes
   breaking boundaries, breaking shells, giving Birth to the Self, and future
   Selves.
 images:
-  - image: /uploads/metamorph-mould.jpg
-    title: I the Other, drawing, 21 cm x 29,7 cm
-    details: drawing, 21 cm x 29,7 cm
   - image: /uploads/the-skin-i-live-in-performance-3.jpg
     title: Performing The Skin I Live in
     details: Shortfilm still, 02:29
   - image: /uploads/liquid-lines-sculpture-copy.jpg
-    title: Liquid Lines
-    details: drawing, 21 cm x 29,7 cm
-  - image: /uploads/sculpture-birth-of-the-self.jpg
     title: Metamorph
-    details: drawing, 21 cm x 29,7 cm
+    details: sculpture, plaster, 36 cm x 42 cm x 31 cm
+  - image: /uploads/sculpture-birth-of-the-self.jpg
+    title: The Birth of Self
+    details: "31cm x 19.5cm x 18cm "
   - image: /uploads/img_9057-copy.jpg
     title: I Other
     details: x
