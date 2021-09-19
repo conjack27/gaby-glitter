@@ -18,12 +18,9 @@ images:
   - image: /uploads/metamorph-mould.jpg
     title: I the Other, drawing, 21 cm x 29,7 cm
     details: drawing, 21 cm x 29,7 cm
-  - image: /uploads/keep-me-sculpture.jpg
-    title: The Conditioned and the Autonomous
-    details: drawing, 21 cm x 29,7 cm
   - image: /uploads/the-skin-i-live-in-performance-3.jpg
     title: Performing The Skin I Live in
-    details: drawing, 21 cm x 29,7 cm
+    details: Shortfilm still, 02:29
   - image: /uploads/liquid-lines-sculpture-copy.jpg
     title: Liquid Lines
     details: drawing, 21 cm x 29,7 cm
