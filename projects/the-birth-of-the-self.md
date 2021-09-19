@@ -20,16 +20,16 @@ images:
     details: Shortfilm still, 02:29
   - image: /uploads/liquid-lines-sculpture-copy.jpg
     title: Metamorph
-    details: sculpture, plaster, 36 cm x 42 cm x 31 cm
+    details: plaster, 36 cm x 42 cm x 31 cm
   - image: /uploads/sculpture-birth-of-the-self.jpg
     title: The Birth of the Self
-    details: "31cm x 19.5cm x 18cm "
+    details: "plaster, 31cm x 19.5cm x 18cm "
   - image: /uploads/img_9057-copy.jpg
-    title: I Other
-    details: x
+    title: LIQUID DESIRE
+    details: oil on cotton, 120cm x 80cm
   - image: /uploads/i-the-other-drawing.jpg
     title: I, the Other
-    details: drawing, 21 cm x 29,7 cm
+    details: pencil on paper, 21 cm x 29,7 cm
 videos:
   - video: https://player.vimeo.com/video/488998141
     title: Tenteculair Other
