@@ -15,7 +15,7 @@
                             </li>
                             <li class="nav__menu-item">
                                 <g-link class="nav__link" to="/singles/"
-                                    >One-Offs</g-link
+                                    >Work</g-link
                                 >
                             </li>
 

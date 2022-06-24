@@ -61,10 +61,9 @@
                     </form>
                     <p  class="contact__success" v-else>Thank you! I will get back to you as soon as possible :)</p>
                     <div class="contact__info">
-                        <p>For other questions/requests, feel free to contact me.</p>
+                        <p>For other questions/requests, feel free to contact me</p>
                         <p class="contact__info-details">
                             <span class="contact__info-details--email">E: <a href="mailto:info@gabyjonna.com"><b>info@gabyjonna.com</b></a></span>
-                            <span class="contact__info-details--phone">T: <b>+31 (0)6 54 71 62 72</b></span>
                         </p>
                     </div> 
                 </div>

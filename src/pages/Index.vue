@@ -30,7 +30,7 @@
                                     ')',
                             }"
                         >
-                            <h1 class="home__image-heading">One-Offs</h1>
+                            <h1 class="home__image-heading">Work</h1>
                             <div class="home__image-overlay"></div>
                         </div>
                     </g-link>
@@ -39,7 +39,7 @@
         </div>
     </Layout>
 </template>
- 
+
 <page-query>
   query MainImages {
     projectsMainImage: allProjectsMainImage {
