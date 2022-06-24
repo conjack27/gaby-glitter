@@ -20,7 +20,7 @@ collections:
       widget: "list"
       create: true # Allow users to create new documents in this collection
       slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-      summary: '{{fields.title}}'
+      summary: "{{fields.title}}"
       fields: # The fields for each document, usually in front matter
           - { label: "Title", name: "title", widget: "string" }
           - { label: "Cover Image", name: "coverImage", widget: "image" }
@@ -30,16 +30,16 @@ collections:
             collapsed: false
             widget: list
             fields:
-              - {label: Image, name: image, widget: image}
-              - {label: Title, name: title, widget: string}
-              - {label: Details, name: details, widget: string}
+                - { label: Image, name: image, widget: image }
+                - { label: Title, name: title, widget: string }
+                - { label: Details, name: details, widget: string }
           - label: Videos
             name: videos
             collapsed: false
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - { label: "Video", name: "video", widget: "string" }
+                - { label: Title, name: title, widget: string }
+                - { label: "Video", name: "video", widget: "string" }
     - name: "projectsMainImage"
       label: "Project Main Image"
       create: true # Allow users to create new documents in this collection
@@ -75,8 +75,12 @@ collections:
       create: true # Allow users to create new documents in this collection
       folder: "aboutText" # The path to the folder where the documents are stored
       fields:
+          - widget: string
+            name: name
+            label: Name
+            required: false
           - widget: markdown
             name: aboutText
             label: About Text
-            modes: ['raw', 'rich_text']
+            modes: ["raw", "rich_text"]
             required: true
