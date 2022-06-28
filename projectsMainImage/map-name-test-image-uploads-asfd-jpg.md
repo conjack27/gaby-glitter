@@ -1,4 +1,4 @@
 ---
 name: test
-image: /uploads/liquid-lines-sculpture-copy.jpg
+image: /uploads/gaby-jonna-waltman_reflections-of-a-bodily-landscape_2022.jpg
 ---
