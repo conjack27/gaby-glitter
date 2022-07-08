@@ -10,4 +10,7 @@ images:
   - image: /uploads/gaby-jonna-waltman_reflections-of-a-bodily-landscape_2022.jpg
     title: Reflections of a Bodily Landscape
     details: Multimedia installation
+  - title: Contained
+    image: /uploads/contained-gaby-jonna.jpg
+    details: Jesmonite, 250 x 300 cm
 ---
