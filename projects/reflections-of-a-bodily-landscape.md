@@ -6,4 +6,8 @@ description: The work Reflections of a Bodily Landscape explores the anatomy of
   fluid shape. This theme encompasses boundaries, transformation, and trauma.
   Through my work, I research how the body can guide us in venturing into this
   fluid shape.
+images:
+  - image: /uploads/gaby-jonna-waltman_reflections-of-a-bodily-landscape_2022.jpg
+    title: Reflections of a Bodily Landscape
+    details: Multimedia installation
 ---
