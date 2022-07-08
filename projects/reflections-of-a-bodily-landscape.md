@@ -16,6 +16,9 @@ images:
   - image: /uploads/reflections.jpg
     title: Reflections
     details: Silver and brass, 145 x 84.5 x 2 cm
+  - image: /uploads/bodyscape-irreversible.jpg
+    details: Oil paint and oil pastels on corner canvas, 180x180cm x 180x180cm ∟90 ̊
+    title: Irreversible
 videos:
   - video: https://player.vimeo.com/video/720316762
     title: Performing Bodily Landscapes; Irreversible
