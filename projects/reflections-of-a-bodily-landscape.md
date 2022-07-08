@@ -19,6 +19,9 @@ images:
   - image: /uploads/bodyscape-irreversible.jpg
     details: Oil paint and oil pastels on corner canvas, 180x180cm x 180x180cm ∟90 ̊
     title: Irreversible
+  - image: /uploads/vessel-8-knees.jpg
+    title: Vessel 8 Knees
+    details: 30 x 23.5 x 24.5 cm
 videos:
   - video: https://player.vimeo.com/video/720316762
     title: Performing Bodily Landscapes; Irreversible
