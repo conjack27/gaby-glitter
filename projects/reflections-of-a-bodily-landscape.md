@@ -13,4 +13,7 @@ images:
   - title: Contained
     image: /uploads/contained-gaby-jonna.jpg
     details: Jesmonite, 250 x 300 cm
+  - image: /uploads/reflections.jpg
+    title: Reflections
+    details: Silver and brass, 145 x 84.5 x 2 cm
 ---
