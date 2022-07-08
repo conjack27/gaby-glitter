@@ -16,4 +16,7 @@ images:
   - image: /uploads/reflections.jpg
     title: Reflections
     details: Silver and brass, 145 x 84.5 x 2 cm
+videos:
+  - video: https://player.vimeo.com/video/720316762
+    title: Performing Bodily Landscapes; Irreversible
 ---
