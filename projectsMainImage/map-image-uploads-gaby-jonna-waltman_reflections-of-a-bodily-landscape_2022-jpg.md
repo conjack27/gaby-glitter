@@ -1,3 +1,3 @@
 ---
-image: /uploads/gaby-jonna-waltman_reflections-of-a-bodily-landscape_2022.jpg
+image: /uploads/screenshot-2022-08-03-at-16.01.05.png
 ---
