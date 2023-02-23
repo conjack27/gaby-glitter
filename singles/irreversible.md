@@ -1,7 +1,6 @@
 ---
 title: Irreversible
-image: /uploads/bodyscape-irreversible.jpg
-details: " Oil paint and oil pastels on corner canvas, 186 x 186 cm x 186 x
-  186cm ∟90 ̊ "
+image: /uploads/irreversible-2022-186-x-372-x-4-cm-oil-on-cotton.jpg
+details: " Oil on cotton, 372 x 186 cm"
 description: " "
 ---
