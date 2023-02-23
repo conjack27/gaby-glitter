@@ -1,7 +1,7 @@
 ---
 title: Liquid desire
 image: /uploads/img_9057-copy.jpg
-details: Oil on cotton, 120cm x 80cm
-description: Oil on cotton, 120cm x 80cm
+details: 2021, Oil on cotton, 120 x 80cm
+description: 2021, Oil on cotton, 120 x 80cm
 ---
 test
