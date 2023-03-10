@@ -23,6 +23,9 @@ images:
   - image: /uploads/vessel-4-shoulder.png
     title: Vessel 4 - Shoulder
     details: 2022, Jesmonite, 30 x 27 x 20 cm
+  - title: " "
+    image: /uploads/reflections-of-a-bodily-landscape-2-.jpg
+    details: " "
 videos:
   - video: https://player.vimeo.com/video/720316762
     title: Irreversible Performed
