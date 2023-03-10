@@ -16,7 +16,7 @@ images:
   - image: /uploads/reflections.jpg
     title: Reflections
     details: 2022, Silver and brass, 145 x 84.5 x 2 cm
-  - image: /uploads/bodyscape-irreversible.jpg
+  - image: /uploads/bodyscape-irreversable.jpg
     details: 2022, Oil paint and oil pastels on corner canvas, 180x180cm x 180x180cm
       ∟90 ̊
     title: Irreversible
