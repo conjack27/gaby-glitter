@@ -15,9 +15,10 @@ images:
     details: 2022, Jesmonite, 29 x 21 x 24 cm
   - image: /uploads/reflections.jpg
     title: Reflections
-    details: Silver and brass, 145 x 84.5 x 2 cm
+    details: 2022, Silver and brass, 145 x 84.5 x 2 cm
   - image: /uploads/bodyscape-irreversible.jpg
-    details: Oil paint and oil pastels on corner canvas, 180x180cm x 180x180cm ∟90 ̊
+    details: 2022, Oil paint and oil pastels on corner canvas, 180x180cm x 180x180cm
+      ∟90 ̊
     title: Irreversible
   - image: /uploads/vessel-4-shoulder.png
     title: Vessel 4 - Shoulder
