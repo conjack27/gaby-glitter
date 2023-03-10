@@ -10,16 +10,16 @@ images:
   - image: /uploads/gaby-jonna-waltman_reflections-of-a-bodily-landscape_2022.jpg
     title: Reflections of a Bodily Landscape
     details: Multimedia installation
-  - title: Contained
-    image: /uploads/contained-gaby-jonna.jpg
-    details: Jesmonite, 250 x 300 cm
+  - title: Vessel 2 - Ear right
+    image: /uploads/vessel-2-ear-right.png
+    details: 2022, Jesmonite, 29 x 21 x 24 cm
   - image: /uploads/reflections.jpg
     title: Reflections
     details: Silver and brass, 145 x 84.5 x 2 cm
   - image: /uploads/bodyscape-irreversible.jpg
     details: Oil paint and oil pastels on corner canvas, 180x180cm x 180x180cm ∟90 ̊
     title: Irreversible
-  - image: /uploads/screenshot-2023-03-07-at-21.30.28.png
+  - image: /uploads/vessel-4-shoulder.png
     title: Vessel 4 - Shoulder
     details: 2022, Jesmonite, 30 x 27 x 20 cm
 videos:
