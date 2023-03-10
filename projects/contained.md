@@ -16,4 +16,22 @@ images:
   - image: /uploads/vessel-3-face.jpg
     title: Vessel 3 - Face
     details: 2022, Jesmonite, 29 x 22 x 20.5 cm
+  - image: /uploads/vessel-4-shoulder.jpg
+    title: Vessel 4 - Shoulder
+    details: 2022, Jesmonite, 30 x 27 x 20 cm
+  - details: 2022, Jesmonite, 30 x 21.5 x 22 cm
+    image: /uploads/vessel-5-hand.jpg
+    title: Vessel 5 - Hand
+  - details: 2022, Jesmonite, 30.5 x 21.5 x 20.5 cm, (sold United Kingdom)
+    image: /uploads/vessel-6-breast.jpg
+    title: Vessel 6 - Breast
+  - details: 2022, Jesmonite, 30 x 21 x 21.5 cm, (sold United Kingdom)
+    image: /uploads/vessel-7-belly.jpg
+    title: Vessel 7 - Belly
+  - details: 2022, Jesmonite, 30 x 23.5 x 24.5 cm
+    title: Vessel 8 - Knees
+    image: /uploads/vessel-8-knees.jpg
+  - details: 2022, Jesmonite, 35.5 x 21 x 22 cm
+    image: /uploads/vessel-9-foot.jpg
+    title: Vessel 9 - Foot
 ---
