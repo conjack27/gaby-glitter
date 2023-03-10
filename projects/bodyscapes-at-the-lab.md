@@ -32,4 +32,10 @@ images:
   - image: /uploads/morphing-bodies-2-2022-gaby-jonna.jpg
     title: "Morphing Bodies # 2"
     details: 2022, Oil on cotton, 152 x 121.5 cm
+  - image: /uploads/bodyscapes-at-the-lab-2-.jpg
+    title: " "
+    details: " "
+  - image: /uploads/morphin-bodies-1-2022-gaby-jonna.jpg
+    title: "Morphing Bodies # 1"
+    details: 2022, Oil on cotton, 220 x 160 cm
 ---
