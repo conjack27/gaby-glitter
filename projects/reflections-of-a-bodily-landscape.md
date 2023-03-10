@@ -25,5 +25,5 @@ images:
     details: 2022, Jesmonite, 30 x 27 x 20 cm
 videos:
   - video: https://player.vimeo.com/video/720316762
-    title: Performing Bodily Landscapes; Irreversible
+    title: Irreversible Performed
 ---
