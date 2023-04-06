@@ -1,4 +1,4 @@
 ---
-name: test
-image: /uploads/img_9057-copy.jpg
+name: Projects
+image: /uploads/screenshot-2022-08-03-at-16.01.05.png
 ---
