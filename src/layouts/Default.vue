@@ -14,7 +14,7 @@
                                 >
                             </li>
                             <li class="nav__menu-item">
-                                <g-link class="nav__link" to="/singles/"
+                                <g-link class="nav__link" to="/work/"
                                     >Work</g-link
                                 >
                             </li>
@@ -40,11 +40,6 @@
                                 class="header__social-icon header__social-icon--instagram"
                                 target="_blank"
                                 href="https://www.instagram.com/gabyjonna/"
-                            ></a>
-                            <a
-                                class="header__social-icon header__social-icon--linkedin"
-                                target="_blank"
-                                href="https://www.linkedin.com/in/gaby-jonna-waltman-b0b2a013b/"
                             ></a>
                         </div>
                     </nav>

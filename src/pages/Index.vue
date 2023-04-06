@@ -19,7 +19,7 @@
                     </g-link>
                 </div>
                 <div class="one-half column">
-                    <g-link to="/singles/">
+                    <g-link to="/work/">
                         <div
                             class="home__image home__image--2"
                             :style="{
