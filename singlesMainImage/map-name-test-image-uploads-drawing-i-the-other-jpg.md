@@ -1,4 +1,4 @@
 ---
 name: Projects
-image: /uploads/screenshot-2022-08-03-at-16.01.05.png
+image: /uploads/gaby-jonna-morphing-bodies-3-2023-oil-on-canvas-diptych-200-x-240-cm-200-x-120-cm-each-.jpg
 ---
