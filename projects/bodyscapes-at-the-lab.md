@@ -11,15 +11,15 @@ description: " During the creation of Bodyscapes, Gaby Jonna attached a
   that expands our understanding of self and other, boundaries, bodies, consent
   and human transformation. "
 images:
-  - image: /uploads/irreversible-2022-186-x-372-x-4-cm-oil-on-canvas-1.jpg
-    title: Irreversible
-    details: 2022, Oil on cotton, 372 x 186 cm
   - image: /uploads/heard-2022-gaby-jonna.jpg
     title: Heard
     details: 2022, Oil on cotton, 185 x 170 cm
   - image: /uploads/bodyscapes-at-the-lab-3-.jpg
     title: " "
     details: " "
+  - image: /uploads/irreversible-2022-186-x-372-x-4-cm-oil-on-canvas-1.jpg
+    title: Irreversible
+    details: 2022, Oil on cotton, 372 x 186 cm
   - image: /uploads/bodyscapes-at-the-lab-5-.png
     title: "Morphing Bodies # 3 performance"
     details: " "
