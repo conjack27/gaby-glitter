@@ -26,7 +26,7 @@ images:
   - image: /uploads/bodyscapes-at-the-lab-5-.png
     title: "Morphing Bodies # 3 performance"
     details: " "
-  - image: /uploads/morphing-bodies-3-2022-200-x-240-x-4.5-cm-oil-on-canvas.jpg
+  - image: /uploads/gaby-jonna-morphing-bodies-3-2023-oil-on-canvas-diptych-200-x-240-cm-200-x-120-cm-each-.jpg
     title: "Morphing Bodies # 3"
     details: 2023, Oil on cotton, 200 x 240 cm
   - image: /uploads/morphing-bodies-2-2022-gaby-jonna.jpg
