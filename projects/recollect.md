@@ -1,6 +1,6 @@
 ---
 title: Recollect
-coverImage: /uploads/recollect-gaby-jonna.jpg
+coverImage: /uploads/recollect-acrylic-on-paper-gaby-jonna.jpg
 description: A series of abstract portraits that delve into the depths of the
   human interactions and memory.
 images:
