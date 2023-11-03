@@ -1,4 +1,4 @@
 ---
 name: Work
-image: /uploads/the-ever-evolving-self-2021-gaby-jonna.jpg
+image: /uploads/heard-2021-185-x-170-cm-oil-on-cotton.jpg
 ---
