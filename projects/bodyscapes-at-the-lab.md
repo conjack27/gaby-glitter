@@ -44,4 +44,7 @@ images:
   - image: /uploads/irreversible-2022-186-x-372-x-4-cm-oil-on-cotton.jpg
     title: Irreversible
     details: 2022, Oil on cotton, 372 x 186 cm
+  - image: /uploads/morphing-bodies-2-2022-gaby-jonna.jpg
+    title: "Morphing Bodies # 2"
+    details: 2022, Oil on canvas, 152 x 121.5 cm
 ---
