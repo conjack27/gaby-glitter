@@ -41,4 +41,7 @@ images:
   - title: Heard
     image: /uploads/heard-2021-185-x-170-cm-oil-on-cotton.jpg
     details: 2022, Oil on cotton, 185 x 170 cm
+  - image: /uploads/irreversible-2022-186-x-372-x-4-cm-oil-on-cotton.jpg
+    title: Irreversible
+    details: 2022, Oil on cotton, 372 x 186 cm
 ---
