@@ -40,4 +40,10 @@ images:
   - title: Uncharted
     details: 2023, acrylic on paper, 17.8 x 12.7 cm
     image: /uploads/uncharted-2023-acrylic-on-paper-17.8-x-12.7-cm-gaby-jonna.jpg
+  - title: Symphony
+    details: 2023, acrylic on paper, 17.8 x 12.7 cm
+    image: /uploads/symphony-2023-acrylic-on-paper-17.8-x-12.7-cm-gaby-jonna.jpg
+  - title: Team
+    details: 2023, acrylic on paper, 17.8 x 12.7 cm
+    image: /uploads/team-2023-acrylic-on-paper-17.8-x-12.7-cm-gaby-jonna.jpg
 ---
