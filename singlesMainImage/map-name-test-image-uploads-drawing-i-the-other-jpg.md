@@ -1,4 +1,4 @@
 ---
 name: Projects
-image: /uploads/bodyscapes-at-the-lab-1-.jpg
+image: /uploads/mmk_cluster_crafts_2024_169.jpg
 ---
